@@ -1,0 +1,18 @@
+{
+  "context": "qatar",
+  "n_trials": 5000,
+  "k_withheld": 8,
+  "actual_gate_flips": 2,
+  "random_removal_flip_mean": 2.9264,
+  "random_removal_flip_distribution": {
+    "0": 147,
+    "1": 581,
+    "2": 1165,
+    "3": 1467,
+    "4": 1044,
+    "5": 457,
+    "6": 114,
+    "7": 25
+  },
+  "p_value_flips_geq_actual": 0.8544
+}
