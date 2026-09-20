@@ -1,0 +1,112 @@
+{
+  "context": "ireland",
+  "criteria": [
+    "Renewable energy sourcing",
+    "Cooling technology",
+    "Energy efficiency",
+    "Grid connection capacity",
+    "Regulatory compliance",
+    "Operational cost",
+    "Carbon footprint"
+  ],
+  "per_criterion": {
+    "Renewable energy sourcing": {
+      "overall_mean": 24.88888888888889,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 24.666666666666668,
+        "google/gemini-3.5-flash-lite": 21.666666666666668,
+        "openai/gpt-4o-mini": 28.333333333333332
+      },
+      "MSW_within_model": 5.666666666666667,
+      "MSB_between_model": 33.44444444444442,
+      "F_stat": 5.901960784313725,
+      "p_value": 0.03827425393151438,
+      "bias_corrected_between_model_variance": 9.25925925925925,
+      "significant_at_0.10": true
+    },
+    "Cooling technology": {
+      "overall_mean": 14.777777777777779,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 16.0,
+        "google/gemini-3.5-flash-lite": 11.666666666666666,
+        "openai/gpt-4o-mini": 16.666666666666668
+      },
+      "MSW_within_model": 9.555555555555555,
+      "MSB_between_model": 22.111111111111125,
+      "F_stat": 2.3139534883720936,
+      "p_value": 0.1799328743507199,
+      "bias_corrected_between_model_variance": 4.18518518518519,
+      "significant_at_0.10": false
+    },
+    "Energy efficiency": {
+      "overall_mean": 15.666666666666666,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 15.333333333333334,
+        "google/gemini-3.5-flash-lite": 15.0,
+        "openai/gpt-4o-mini": 16.666666666666668
+      },
+      "MSW_within_model": 11.222222222222221,
+      "MSB_between_model": 2.333333333333336,
+      "F_stat": 0.20792079207920794,
+      "p_value": 0.8178861517553219,
+      "bias_corrected_between_model_variance": 0.0,
+      "significant_at_0.10": false
+    },
+    "Grid connection capacity": {
+      "overall_mean": 17.666666666666668,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 18.0,
+        "google/gemini-3.5-flash-lite": 25.0,
+        "openai/gpt-4o-mini": 10.0
+      },
+      "MSW_within_model": 33.666666666666664,
+      "MSB_between_model": 169.0,
+      "F_stat": 5.01980198019802,
+      "p_value": 0.0523447137123406,
+      "bias_corrected_between_model_variance": 45.111111111111114,
+      "significant_at_0.10": true
+    },
+    "Regulatory compliance": {
+      "overall_mean": 12.777777777777779,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 15.0,
+        "google/gemini-3.5-flash-lite": 13.333333333333334,
+        "openai/gpt-4o-mini": 10.0
+      },
+      "MSW_within_model": 5.777777777777778,
+      "MSB_between_model": 19.444444444444443,
+      "F_stat": 3.365384615384617,
+      "p_value": 0.10468629113646653,
+      "bias_corrected_between_model_variance": 4.5555555555555545,
+      "significant_at_0.10": false
+    },
+    "Operational cost": {
+      "overall_mean": 7.777777777777778,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 6.666666666666667,
+        "google/gemini-3.5-flash-lite": 5.0,
+        "openai/gpt-4o-mini": 11.666666666666666
+      },
+      "MSW_within_model": 6.888888888888888,
+      "MSB_between_model": 36.1111111111111,
+      "F_stat": 5.241935483870967,
+      "p_value": 0.04822543261485623,
+      "bias_corrected_between_model_variance": 9.740740740740737,
+      "significant_at_0.10": true
+    },
+    "Carbon footprint": {
+      "overall_mean": 6.444444444444445,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 4.333333333333333,
+        "google/gemini-3.5-flash-lite": 8.333333333333334,
+        "openai/gpt-4o-mini": 6.666666666666667
+      },
+      "MSW_within_model": 6.0,
+      "MSB_between_model": 12.111111111111118,
+      "F_stat": 2.0185185185185195,
+      "p_value": 0.2136176686449261,
+      "bias_corrected_between_model_variance": 2.0370370370370394,
+      "significant_at_0.10": false
+    }
+  }
+}

@@ -77,11 +77,20 @@ Three studies are included:
   reports hand-reconciled consensus counts checked against the raw responses, not this
   script's raw cluster output directly — both are in the repo for comparison.
 - `code/v3/run_weight_elicitation.py` — for the hand-reconciled ≥2-of-3-model consensus
-  criteria, asks the same three LLMs (3 paraphrases each) to distribute 100 importance
-  points across them (18 calls). Produces `data/v3/raw_weights_{qatar,ireland}.json`.
-- `code/v3/analyze_weights.py` — decomposes each criterion's weight variance into
-  within-model (across a model's own 3 paraphrases) and cross-model (across the 3
-  models' means) components. Produces `data/v3/results_weights_{qatar,ireland}.json`.
+  criteria (5 for Qatar, 7 for Ireland including carbon footprint), asks the same three
+  LLMs (3 paraphrases each) to distribute 100 importance points across them (27 calls
+  total). Produces `data/v3/raw_weights_{qatar,ireland}.json`. Takes an optional
+  `qatar`/`ireland` argument to re-run a single context.
+- `code/v3/analyze_weights.py` — an earlier, **statistically biased** decomposition:
+  compares raw within-model variance against Var(model means) directly, which is
+  inflated by attenuated within-model noise (E[Var_m(w̄_m)] = σ²_between + σ²_within/k)
+  and is not a fair comparison. Kept for provenance; **not** the manuscript's source of
+  truth.
+- `code/v3/analyze_weights_anova.py` — the corrected version: runs a proper one-way
+  ANOVA per criterion (3 models × 3 paraphrases, F(2,6)) via `scipy.stats.f_oneway`,
+  reporting F, p-value, and a bias-corrected variance-components estimate
+  σ̂²_between = max(0, (MSB−MSW)/k). This is what the manuscript's Tables 2a/2b report.
+  Produces `data/v3/results_weights_anova_{qatar,ireland}.json`.
 
 ## Reproducing
 
@@ -107,8 +116,8 @@ python code/v3/run_criteria_elicitation.py       # optional: redraws raw proposa
 python code/v3/analyze_criteria_consensus.py qatar
 python code/v3/analyze_criteria_consensus.py ireland
 python code/v3/run_weight_elicitation.py         # optional: redraws raw weights
-python code/v3/analyze_weights.py qatar
-python code/v3/analyze_weights.py ireland
+python code/v3/analyze_weights_anova.py qatar    # corrected version -- use this one
+python code/v3/analyze_weights_anova.py ireland
 ```
 
 All raw response files are committed, so the `analyze`/`robustness`/`figure` scripts

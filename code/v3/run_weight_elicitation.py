@@ -7,7 +7,7 @@ each of 3 LLMs (3 paraphrases each) to assign relative importance weights
 (0-100, summing to ~100) to that set. This derives weights the same way a
 human AHP/SWING-weighting panel would be asked to, but from LLM consensus.
 """
-import json, os, re, time, urllib.request
+import json, os, re, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 API_KEY = os.environ["OPENROUTER_API_KEY"]
@@ -28,7 +28,8 @@ CONSENSUS_CRITERIA = {
     },
     "ireland": {
         "criteria": ["Renewable energy sourcing", "Cooling technology", "Energy efficiency",
-                     "Grid connection capacity", "Regulatory compliance", "Operational cost"],
+                     "Grid connection capacity", "Regulatory compliance", "Operational cost",
+                     "Carbon footprint"],
         "context": ("a data center in Ireland's data center market (grid connection pause in "
                      "Dublin until 2028, 80% new-renewable sourcing mandate, cool maritime "
                      "climate)"),
@@ -115,7 +116,10 @@ def run_context(ctx_name, spec, out_path):
 
 def main():
     os.makedirs("data/v3", exist_ok=True)
+    which = sys.argv[1] if len(sys.argv) > 1 else "all"
     for ctx_name, spec in CONSENSUS_CRITERIA.items():
+        if which != "all" and which != ctx_name:
+            continue
         run_context(ctx_name, spec, f"data/v3/raw_weights_{ctx_name}.json")
 
 if __name__ == "__main__":

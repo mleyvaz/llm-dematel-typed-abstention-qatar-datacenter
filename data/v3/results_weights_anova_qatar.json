@@ -1,0 +1,82 @@
+{
+  "context": "qatar",
+  "criteria": [
+    "Energy efficiency",
+    "Water usage / cooling",
+    "Renewable energy sourcing",
+    "Capital and operating cost",
+    "Scalability and reliability"
+  ],
+  "per_criterion": {
+    "Energy efficiency": {
+      "overall_mean": 26.22222222222222,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 25.0,
+        "anthropic/claude-haiku-4.5": 27.0,
+        "openai/gpt-4o-mini": 26.666666666666668
+      },
+      "MSW_within_model": 3.777777777777778,
+      "MSB_between_model": 3.444444444444446,
+      "F_stat": 0.9117647058823528,
+      "p_value": 0.45107171229560705,
+      "bias_corrected_between_model_variance": 0.0,
+      "significant_at_0.10": false
+    },
+    "Water usage / cooling": {
+      "overall_mean": 27.0,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 25.0,
+        "anthropic/claude-haiku-4.5": 27.666666666666668,
+        "openai/gpt-4o-mini": 28.333333333333332
+      },
+      "MSW_within_model": 4.222222222222222,
+      "MSB_between_model": 9.33333333333333,
+      "F_stat": 2.210526315789474,
+      "p_value": 0.19086178590310823,
+      "bias_corrected_between_model_variance": 1.7037037037037026,
+      "significant_at_0.10": false
+    },
+    "Renewable energy sourcing": {
+      "overall_mean": 17.77777777777778,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "anthropic/claude-haiku-4.5": 20.0,
+        "openai/gpt-4o-mini": 18.333333333333332
+      },
+      "MSW_within_model": 12.444444444444445,
+      "MSB_between_model": 19.44444444444444,
+      "F_stat": 1.562500000000001,
+      "p_value": 0.28428577671412797,
+      "bias_corrected_between_model_variance": 2.3333333333333317,
+      "significant_at_0.10": false
+    },
+    "Capital and operating cost": {
+      "overall_mean": 15.666666666666666,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "anthropic/claude-haiku-4.5": 15.333333333333334,
+        "openai/gpt-4o-mini": 16.666666666666668
+      },
+      "MSW_within_model": 2.8888888888888893,
+      "MSB_between_model": 2.333333333333336,
+      "F_stat": 0.8076923076923077,
+      "p_value": 0.4890781089128196,
+      "bias_corrected_between_model_variance": 0.0,
+      "significant_at_0.10": false
+    },
+    "Scalability and reliability": {
+      "overall_mean": 13.333333333333334,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 20.0,
+        "anthropic/claude-haiku-4.5": 10.0,
+        "openai/gpt-4o-mini": 10.0
+      },
+      "MSW_within_model": 9.666666666666666,
+      "MSB_between_model": 100.0,
+      "F_stat": 10.344827586206902,
+      "p_value": 0.011361217204727823,
+      "bias_corrected_between_model_variance": 30.11111111111111,
+      "significant_at_0.10": true
+    }
+  }
+}
