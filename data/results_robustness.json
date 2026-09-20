@@ -1,0 +1,143 @@
+{
+  "imputation_sensitivity": {
+    "zero_impute_netR": {
+      "PUE": -1.1847844764048259,
+      "REN": -0.7360142796828333,
+      "COOL": -0.06558680284104312,
+      "CAPEX": 0.7597903197925353,
+      "REG": 1.2265952391361663
+    },
+    "rowmean_impute_netR": {
+      "PUE": -0.7435105916776972,
+      "REN": -0.3491024854155542,
+      "COOL": -0.10437853749484294,
+      "CAPEX": 0.2540859089067382,
+      "REG": 0.9429057056813552
+    }
+  },
+  "bootstrap_netR_gated": {
+    "PUE": {
+      "mean": -1.2128034634840514,
+      "min": -1.5897340215664757,
+      "max": -0.8252269531216765,
+      "n_enumerated": 27
+    },
+    "REN": {
+      "mean": -0.76257542681756,
+      "min": -1.1843035499398313,
+      "max": -0.3628977073146422,
+      "n_enumerated": 27
+    },
+    "COOL": {
+      "mean": -0.06840233933457858,
+      "min": -0.1327625624888331,
+      "max": 0.004183325167065544,
+      "n_enumerated": 27
+    },
+    "CAPEX": {
+      "mean": 0.7756021014699563,
+      "min": 0.6111088828035836,
+      "max": 0.9612092956215084,
+      "n_enumerated": 27
+    },
+    "REG": {
+      "mean": 1.2681791281662331,
+      "min": 0.709778340121568,
+      "max": 1.8918707847088125,
+      "n_enumerated": 27
+    }
+  },
+  "threshold_sensitivity": {
+    "1": {
+      "counts": {
+        "COHERENT": 0,
+        "CONFLICTING": 20,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": [
+        "PUE->REN",
+        "PUE->COOL",
+        "PUE->CAPEX",
+        "PUE->REG",
+        "REN->PUE",
+        "REN->COOL",
+        "REN->CAPEX",
+        "REN->REG",
+        "COOL->PUE",
+        "COOL->REN",
+        "COOL->CAPEX",
+        "COOL->REG",
+        "CAPEX->PUE",
+        "CAPEX->REN",
+        "CAPEX->COOL",
+        "CAPEX->REG",
+        "REG->PUE",
+        "REG->REN",
+        "REG->COOL",
+        "REG->CAPEX"
+      ]
+    },
+    "2": {
+      "counts": {
+        "COHERENT": 18,
+        "CONFLICTING": 2,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": [
+        "PUE->CAPEX",
+        "REN->REG"
+      ]
+    },
+    "3": {
+      "counts": {
+        "COHERENT": 20,
+        "CONFLICTING": 0,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": []
+    }
+  },
+  "semantic_entropy_corr": {
+    "r": 0.38599509105858354,
+    "p_value": 0.09277352213396124,
+    "n": 20,
+    "method": "spearman",
+    "pearson_r": 0.37380005447500175,
+    "pearson_p": 0.10447609594160505
+  },
+  "selfreport_confusion_per_model": {
+    "anthropic/claude-haiku-4.5": {
+      "tp": 0,
+      "fp": 1,
+      "tn": 17,
+      "fn": 2,
+      "accuracy": 0.85,
+      "kappa": -0.07142857142857148,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "openai/gpt-4o-mini": {
+      "tp": 1,
+      "fp": 15,
+      "tn": 3,
+      "fn": 1,
+      "accuracy": 0.2,
+      "kappa": -0.08108108108108109,
+      "precision": 0.0625,
+      "recall": 0.5
+    },
+    "google/gemini-3.5-flash-lite": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 18,
+      "fn": 2,
+      "accuracy": 0.9,
+      "kappa": 0.0,
+      "precision": NaN,
+      "recall": 0.0
+    }
+  }
+}

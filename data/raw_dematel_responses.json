@@ -1,0 +1,1082 @@
+[
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Energy efficiency improvements reduce overall energy demand but do not directly cause or influence the decision to source renewable energy, which is a separate strategic choice.\"}\n```",
+    "score": 1,
+    "justification": "Energy efficiency improvements reduce overall energy demand but do not directly cause or influence the decision to source renewable energy, which is a separate strategic choice."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Energy efficiency reduces energy demand but does not directly cause renewable sourcing decisions, which are driven by policy, cost, and sustainability commitments rather than PUE improvements.\"\n}\n```",
+    "score": 1,
+    "justification": "Energy efficiency reduces energy demand but does not directly cause renewable sourcing decisions, which are driven by policy, cost, and sustainability commitments rather than PUE improvements."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Improving energy efficiency directly enhances the viability and integration of renewable energy sources in data centers.\"}",
+    "score": 3,
+    "justification": "Improving energy efficiency directly enhances the viability and integration of renewable energy sources in data centers."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":2,\"justification\":\"Improving energy efficiency can lead to reduced overall energy demand, which may incentivize the adoption of renewable energy sources.\"}",
+    "score": 2,
+    "justification": "Improving energy efficiency can lead to reduced overall energy demand, which may incentivize the adoption of renewable energy sources."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Improving energy efficiency reduces overall power demand, thereby making it easier and more cost-effective to cover a higher percentage of the remaining load with renewable energy sources.\"}",
+    "score": 2,
+    "justification": "Improving energy efficiency reduces overall power demand, thereby making it easier and more cost-effective to cover a higher percentage of the remaining load with renewable energy sources."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Improving energy efficiency reduces overall power demand, making it easier and more cost-effective to source 100% renewable energy.\"}\n```",
+    "score": 2,
+    "justification": "Improving energy efficiency reduces overall power demand, making it easier and more cost-effective to source 100% renewable energy."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Energy efficiency requirements directly drive adoption of advanced cooling technologies like liquid cooling to reduce power consumption and operational costs in data centers.\"}\n```",
+    "score": 3,
+    "justification": "Energy efficiency requirements directly drive adoption of advanced cooling technologies like liquid cooling to reduce power consumption and operational costs in data centers."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 2,\n  \"justification\": \"Energy efficiency concerns motivate cooling technology research, but cooling advancement is driven by multiple factors (heat density, space constraints, cost) beyond just PUE improvements, making the causal influence medium rather than direct.\"\n}\n```",
+    "score": 2,
+    "justification": "Energy efficiency concerns motivate cooling technology research, but cooling advancement is driven by multiple factors (heat density, space constraints, cost) beyond just PUE improvements, making the causal influence medium rather than direct."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Energy efficiency drives the need for innovative cooling solutions to optimize performance.\"}",
+    "score": 3,
+    "justification": "Energy efficiency drives the need for innovative cooling solutions to optimize performance."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Improving energy efficiency significantly encourages advancements in cooling technologies to reduce energy consumption and optimize performance.\"}",
+    "score": 3,
+    "justification": "Improving energy efficiency significantly encourages advancements in cooling technologies to reduce energy consumption and optimize performance."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Better PUE targets drive the adoption of advanced cooling technologies to manage higher heat densities.\"}",
+    "score": 2,
+    "justification": "Better PUE targets drive the adoption of advanced cooling technologies to manage higher heat densities."
+  },
+  {
+    "ci": "PUE",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"The constant drive to improve PUE directly forces the adoption of advanced cooling technologies like liquid cooling to handle higher density loads.\"}\n```",
+    "score": 3,
+    "justification": "The constant drive to improve PUE directly forces the adoption of advanced cooling technologies like liquid cooling to handle higher density loads."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Energy efficiency improvements typically require significant upfront capital investments in cooling systems, power infrastructure, and hardware upgrades, creating a high direct causal relationship with capital expenditure.\"}\n```",
+    "score": 3,
+    "justification": "Energy efficiency improvements typically require significant upfront capital investments in cooling systems, power infrastructure, and hardware upgrades, creating a high direct causal relationship with capital expenditure."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 2,\n  \"justification\": \"Better PUE requires targeted infrastructure investments (cooling systems, monitoring tech), but capital expenditure is driven by multiple factors beyond efficiency alone, including facility expansion and regulatory compliance.\"\n}\n```",
+    "score": 2,
+    "justification": "Better PUE requires targeted infrastructure investments (cooling systems, monitoring tech), but capital expenditure is driven by multiple factors beyond efficiency alone, including facility expansion and regulatory compliance."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Improving energy efficiency significantly reduces operational costs, which can influence capital expenditure decisions in data centers.\"}",
+    "score": 3,
+    "justification": "Improving energy efficiency significantly reduces operational costs, which can influence capital expenditure decisions in data centers."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Improving energy efficiency can significantly reduce operational costs, thereby influencing capital expenditure decisions.\"}",
+    "score": 3,
+    "justification": "Improving energy efficiency can significantly reduce operational costs, thereby influencing capital expenditure decisions."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Improving energy efficiency often requires upfront investments in advanced cooling or hardware, directly impacting capital expenditure.\"}",
+    "score": 2,
+    "justification": "Improving energy efficiency often requires upfront investments in advanced cooling or hardware, directly impacting capital expenditure."
+  },
+  {
+    "ci": "PUE",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "{\"score\": 4, \"justification\": \"Improving PUE requires significant investments in advanced cooling, high-efficiency power distribution, and infrastructure upgrades, directly driving capital expenditure.\"}",
+    "score": 4,
+    "justification": "Improving PUE requires significant investments in advanced cooling, high-efficiency power distribution, and infrastructure upgrades, directly driving capital expenditure."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Energy efficiency improvements can moderately reduce regulatory compliance risks by helping data centers meet evolving energy consumption standards and environmental regulations, though compliance is driven by multiple factors beyond just PUE.\"}\n```",
+    "score": 2,
+    "justification": "Energy efficiency improvements can moderately reduce regulatory compliance risks by helping data centers meet evolving energy consumption standards and environmental regulations, though compliance is driven by multiple factors beyond just PUE."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Energy efficiency improvements indirectly reduce compliance risks by helping meet regulatory standards, but PUE is not a direct causal driver of regulatory risk itself.\"\n}\n```",
+    "score": 1,
+    "justification": "Energy efficiency improvements indirectly reduce compliance risks by helping meet regulatory standards, but PUE is not a direct causal driver of regulatory risk itself."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Improving energy efficiency can moderately reduce regulatory and compliance risks by aligning with sustainability standards.\"}",
+    "score": 2,
+    "justification": "Improving energy efficiency can moderately reduce regulatory and compliance risks by aligning with sustainability standards."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":1,\"justification\":\"Improving energy efficiency may reduce regulatory risks, but it is not a direct cause of compliance risk.\"}",
+    "score": 1,
+    "justification": "Improving energy efficiency may reduce regulatory risks, but it is not a direct cause of compliance risk."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Better power usage effectiveness helps meet environmental regulations, moderately reducing compliance and reporting risks.\"}",
+    "score": 2,
+    "justification": "Better power usage effectiveness helps meet environmental regulations, moderately reducing compliance and reporting risks."
+  },
+  {
+    "ci": "PUE",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Poor energy efficiency directly drives high regulatory and compliance risk due to increasingly stringent environmental laws and reporting mandates.\"}\n```",
+    "score": 3,
+    "justification": "Poor energy efficiency directly drives high regulatory and compliance risk due to increasingly stringent environmental laws and reporting mandates."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Renewable energy sourcing primarily addresses energy source sustainability rather than directly causing operational efficiency improvements in power usage effectiveness, which is determined by cooling systems, server utilization, and infrastructure design.\"}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing primarily addresses energy source sustainability rather than directly causing operational efficiency improvements in power usage effectiveness, which is determined by cooling systems, server utilization, and infrastructure design."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Renewable energy sourcing provides cleaner power but does not directly cause improved PUE; efficiency gains require separate technical measures like cooling optimization and hardware upgrades.\"\n}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing provides cleaner power but does not directly cause improved PUE; efficiency gains require separate technical measures like cooling optimization and hardware upgrades."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Renewable energy sourcing significantly enhances energy efficiency by reducing reliance on fossil fuels and optimizing power usage.\"}",
+    "score": 3,
+    "justification": "Renewable energy sourcing significantly enhances energy efficiency by reducing reliance on fossil fuels and optimizing power usage."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 2, \"justification\": \"Renewable energy sourcing can contribute to energy efficiency by providing cleaner energy, but its direct impact on Power Usage Effectiveness is moderate and often requires additional efficiency measures.\"}",
+    "score": 2,
+    "justification": "Renewable energy sourcing can contribute to energy efficiency by providing cleaner energy, but its direct impact on Power Usage Effectiveness is moderate and often requires additional efficiency measures."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Using renewable energy sourcing changes the carbon profile of the power consumed, but has only a moderate direct impact on the technical Power Usage Effectiveness (PUE) ratio itself.\"}",
+    "score": 2,
+    "justification": "Using renewable energy sourcing changes the carbon profile of the power consumed, but has only a moderate direct impact on the technical Power Usage Effectiveness (PUE) ratio itself."
+  },
+  {
+    "ci": "REN",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Sourcing renewable energy changes the carbon profile of power input, but has only a minor operational effect on the internal electrical efficiency (PUE) of data center equipment.\"}\n```",
+    "score": 1,
+    "justification": "Sourcing renewable energy changes the carbon profile of power input, but has only a minor operational effect on the internal electrical efficiency (PUE) of data center equipment."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Renewable energy sourcing has minimal direct causal influence on cooling technology advancement, though both independently contribute to data center sustainability and efficiency.\"}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing has minimal direct causal influence on cooling technology advancement, though both independently contribute to data center sustainability and efficiency."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Renewable energy sourcing has minimal direct causal influence on cooling technology advancement; these are largely independent sustainability initiatives, though renewable energy availability may indirectly incentivize cooling efficiency improvements.\"\n}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing has minimal direct causal influence on cooling technology advancement; these are largely independent sustainability initiatives, though renewable energy availability may indirectly incentivize cooling efficiency improvements."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Renewable energy sourcing can moderately drive the need for more efficient cooling technologies in data centers.\"}",
+    "score": 2,
+    "justification": "Renewable energy sourcing can moderately drive the need for more efficient cooling technologies in data centers."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":2,\"justification\":\"Renewable energy sourcing can incentivize the development of more efficient cooling technologies to optimize energy use.\"}",
+    "score": 2,
+    "justification": "Renewable energy sourcing can incentivize the development of more efficient cooling technologies to optimize energy use."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Renewable energy sourcing creates a strong operational context that encourages the adoption of energy-efficient cooling technologies to maximize overall data center sustainability.\"}",
+    "score": 2,
+    "justification": "Renewable energy sourcing creates a strong operational context that encourages the adoption of energy-efficient cooling technologies to maximize overall data center sustainability."
+  },
+  {
+    "ci": "REN",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Renewable energy sourcing creates a general impetus for data center sustainability, but it has only a low direct causal influence on the technical advancement of cooling systems like liquid cooling, which are primarily driven by thermal management needs and chip power densities.\"}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing creates a general impetus for data center sustainability, but it has only a low direct causal influence on the technical advancement of cooling systems like liquid cooling, which are primarily driven by thermal management needs and chip power densities."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Renewable energy sourcing requires significant upfront capital investment in solar panels, wind turbines, or power purchase agreements, directly causing high capital expenditure increases for data centers.\"}\n```",
+    "score": 3,
+    "justification": "Renewable energy sourcing requires significant upfront capital investment in solar panels, wind turbines, or power purchase agreements, directly causing high capital expenditure increases for data centers."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Renewable energy sourcing requires substantial upfront investments in solar/wind infrastructure, grid connections, and storage systems, directly causing significant capital expenditure for data centers.\"\n}\n```",
+    "score": 3,
+    "justification": "Renewable energy sourcing requires substantial upfront investments in solar/wind infrastructure, grid connections, and storage systems, directly causing significant capital expenditure for data centers."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":3,\"justification\":\"Renewable energy sourcing can significantly reduce operational costs and improve sustainability, leading to increased capital expenditure for installation and upgrades.\"}",
+    "score": 3,
+    "justification": "Renewable energy sourcing can significantly reduce operational costs and improve sustainability, leading to increased capital expenditure for installation and upgrades."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":2,\"justification\":\"Renewable energy sourcing can lead to moderate capital expenditure due to initial investments in infrastructure and technology.\"}",
+    "score": 2,
+    "justification": "Renewable energy sourcing can lead to moderate capital expenditure due to initial investments in infrastructure and technology."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Transitioning to renewable energy sourcing requires significant initial capital investments in on-site generation or long-term power purchase agreements.\"}",
+    "score": 3,
+    "justification": "Transitioning to renewable energy sourcing requires significant initial capital investments in on-site generation or long-term power purchase agreements."
+  },
+  {
+    "ci": "REN",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 4, \"justification\": \"Transitioning to renewable energy sourcing requires substantial upfront investments in on-site generation infrastructure or long-term power purchase agreements.\"}\n```",
+    "score": 4,
+    "justification": "Transitioning to renewable energy sourcing requires substantial upfront investments in on-site generation infrastructure or long-term power purchase agreements."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Renewable energy sourcing moderately influences regulatory compliance by requiring adherence to grid interconnection standards, renewable energy credits tracking, and evolving environmental regulations, but does not directly cause compliance risks as a primary driver.\"}\n```",
+    "score": 2,
+    "justification": "Renewable energy sourcing moderately influences regulatory compliance by requiring adherence to grid interconnection standards, renewable energy credits tracking, and evolving environmental regulations, but does not directly cause compliance risks as a primary driver."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Renewable energy sourcing has minimal direct causal influence on regulatory compliance risk; rather, it typically reduces compliance risk by aligning with environmental regulations.\"\n}\n```",
+    "score": 1,
+    "justification": "Renewable energy sourcing has minimal direct causal influence on regulatory compliance risk; rather, it typically reduces compliance risk by aligning with environmental regulations."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Renewable energy sourcing significantly reduces regulatory and compliance risks by aligning with sustainability standards and reducing carbon footprint.\"}",
+    "score": 3,
+    "justification": "Renewable energy sourcing significantly reduces regulatory and compliance risks by aligning with sustainability standards and reducing carbon footprint."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 1, \"justification\": \"Renewable energy sourcing may have some impact on regulatory compliance, but it is not a direct driver of regulatory and compliance risk.\"}",
+    "score": 1,
+    "justification": "Renewable energy sourcing may have some impact on regulatory compliance, but it is not a direct driver of regulatory and compliance risk."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Transitioning to renewable energy sourcing directly impacts regulatory compliance by aligning data centers with increasingly strict government mandates and carbon-reduction targets.\"}",
+    "score": 3,
+    "justification": "Transitioning to renewable energy sourcing directly impacts regulatory compliance by aligning data centers with increasingly strict government mandates and carbon-reduction targets."
+  },
+  {
+    "ci": "REN",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Sourcing renewable energy involves navigating complex and evolving regulations, directly influencing compliance risks.\"}\n```",
+    "score": 2,
+    "justification": "Sourcing renewable energy involves navigating complex and evolving regulations, directly influencing compliance risks."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Cooling technology advancement directly reduces energy consumption for thermal management, which is a primary driver of PUE improvement in data centers.\"}\n```",
+    "score": 3,
+    "justification": "Cooling technology advancement directly reduces energy consumption for thermal management, which is a primary driver of PUE improvement in data centers."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Advanced cooling technologies directly reduce wasted heat energy and cooling overhead, substantially lowering overall Power Usage Effectiveness (PUE) by improving the ratio of IT power to total facility power consumption.\"\n}\n```",
+    "score": 3,
+    "justification": "Advanced cooling technologies directly reduce wasted heat energy and cooling overhead, substantially lowering overall Power Usage Effectiveness (PUE) by improving the ratio of IT power to total facility power consumption."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Cooling technology advancements significantly enhance energy efficiency by optimizing thermal management in data centers.\"}",
+    "score": 3,
+    "justification": "Cooling technology advancements significantly enhance energy efficiency by optimizing thermal management in data centers."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 4, \"justification\": \"Advanced cooling technologies like liquid cooling significantly reduce energy consumption, directly enhancing overall energy efficiency in data centers.\"}",
+    "score": 4,
+    "justification": "Advanced cooling technologies like liquid cooling significantly reduce energy consumption, directly enhancing overall energy efficiency in data centers."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 4, \"justification\": \"Advanced cooling technologies like liquid cooling directly and substantially reduce data center energy consumption, thereby significantly improving PUE.\"}",
+    "score": 4,
+    "justification": "Advanced cooling technologies like liquid cooling directly and substantially reduce data center energy consumption, thereby significantly improving PUE."
+  },
+  {
+    "ci": "COOL",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "{\"score\": 4, \"justification\": \"Advanced cooling technologies like liquid cooling directly and substantially reduce the energy required for thermal management, which is a primary determinant of Power Usage Effectiveness.\"}",
+    "score": 4,
+    "justification": "Advanced cooling technologies like liquid cooling directly and substantially reduce the energy required for thermal management, which is a primary determinant of Power Usage Effectiveness."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Cooling technology advancement has minimal direct causal influence on renewable energy sourcing decisions, as they address different sustainability aspects (operational efficiency vs. energy source selection).\"}\n```",
+    "score": 1,
+    "justification": "Cooling technology advancement has minimal direct causal influence on renewable energy sourcing decisions, as they address different sustainability aspects (operational efficiency vs. energy source selection)."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 0,\n  \"justification\": \"Cooling technology advancement has no direct causal influence on renewable energy sourcing; they are independent operational decisions addressing different sustainability challenges.\"\n}\n```",
+    "score": 0,
+    "justification": "Cooling technology advancement has no direct causal influence on renewable energy sourcing; they are independent operational decisions addressing different sustainability challenges."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Cooling technology advancements can moderately enhance energy efficiency, indirectly promoting renewable energy usage in data centers.\"}",
+    "score": 2,
+    "justification": "Cooling technology advancements can moderately enhance energy efficiency, indirectly promoting renewable energy usage in data centers."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":2,\"justification\":\"Advancements in cooling technology can enhance energy efficiency, indirectly supporting the shift towards renewable energy sourcing.\"}",
+    "score": 2,
+    "justification": "Advancements in cooling technology can enhance energy efficiency, indirectly supporting the shift towards renewable energy sourcing."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Advanced cooling technologies reduce overall energy consumption, which indirectly facilitates and encourages a higher proportion of renewable energy sourcing to meet net-zero goals.\"}",
+    "score": 2,
+    "justification": "Advanced cooling technologies reduce overall energy consumption, which indirectly facilitates and encourages a higher proportion of renewable energy sourcing to meet net-zero goals."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Advanced cooling primarily reduces energy consumption and thermal constraints rather than directly causing the procurement of renewable energy sources.\"}\n```",
+    "score": 1,
+    "justification": "Advanced cooling primarily reduces energy consumption and thermal constraints rather than directly causing the procurement of renewable energy sources."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Advanced cooling technology requires substantial upfront capital investment in infrastructure, equipment, and installation, directly increasing data center CapEx despite long-term operational savings.\"}\n```",
+    "score": 3,
+    "justification": "Advanced cooling technology requires substantial upfront capital investment in infrastructure, equipment, and installation, directly increasing data center CapEx despite long-term operational savings."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Advanced cooling technologies like liquid cooling require substantial upfront investment in infrastructure, equipment, and installation, directly causing significant capital expenditure.\"\n}\n```",
+    "score": 3,
+    "justification": "Advanced cooling technologies like liquid cooling require substantial upfront investment in infrastructure, equipment, and installation, directly causing significant capital expenditure."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":3,\"justification\":\"Advancements in cooling technology can significantly reduce energy costs and improve efficiency, impacting capital expenditures positively.\"}",
+    "score": 3,
+    "justification": "Advancements in cooling technology can significantly reduce energy costs and improve efficiency, impacting capital expenditures positively."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Advancements in cooling technology can significantly reduce energy costs and improve operational efficiency, leading to increased capital expenditure for initial implementation.\"}",
+    "score": 3,
+    "justification": "Advancements in cooling technology can significantly reduce energy costs and improve operational efficiency, leading to increased capital expenditure for initial implementation."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Advanced cooling technologies require significant upfront investment, directly increasing initial capital expenditure for data centers.\"}",
+    "score": 3,
+    "justification": "Advanced cooling technologies require significant upfront investment, directly increasing initial capital expenditure for data centers."
+  },
+  {
+    "ci": "COOL",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 4, \"justification\": \"Adopting advanced cooling technologies like liquid cooling requires significant upfront investment in specialized infrastructure and facility redesign.\"}\n```",
+    "score": 4,
+    "justification": "Adopting advanced cooling technologies like liquid cooling requires significant upfront investment in specialized infrastructure and facility redesign."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Cooling technology advancement has minimal direct influence on regulatory compliance risk, though improved efficiency may indirectly help meet environmental regulations.\"}\n```",
+    "score": 1,
+    "justification": "Cooling technology advancement has minimal direct influence on regulatory compliance risk, though improved efficiency may indirectly help meet environmental regulations."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Cooling technology advancement has minimal direct causal influence on regulatory compliance risk; rather, it may indirectly reduce compliance burden by improving efficiency and reducing environmental impact.\"\n}\n```",
+    "score": 1,
+    "justification": "Cooling technology advancement has minimal direct causal influence on regulatory compliance risk; rather, it may indirectly reduce compliance burden by improving efficiency and reducing environmental impact."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":2,\"justification\":\"Cooling technology advancements can moderately influence regulatory and compliance risks by improving energy efficiency and reducing environmental impact.\"}",
+    "score": 2,
+    "justification": "Cooling technology advancements can moderately influence regulatory and compliance risks by improving energy efficiency and reducing environmental impact."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 1, \"justification\": \"Cooling technology advancements may influence regulatory compliance indirectly by promoting efficiency, but they do not directly cause regulatory risks.\"}",
+    "score": 1,
+    "justification": "Cooling technology advancements may influence regulatory compliance indirectly by promoting efficiency, but they do not directly cause regulatory risks."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Adopting advanced cooling technologies introduces new compliance standards and operational certifications, creating moderate regulatory risks.\"}",
+    "score": 2,
+    "justification": "Adopting advanced cooling technologies introduces new compliance standards and operational certifications, creating moderate regulatory risks."
+  },
+  {
+    "ci": "COOL",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Advanced cooling technologies primarily improve efficiency and rarely cause compliance risks, except for minor uncertainties with new safety standards.\"}\n```",
+    "score": 1,
+    "justification": "Advanced cooling technologies primarily improve efficiency and rarely cause compliance risks, except for minor uncertainties with new safety standards."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Capital expenditure directly enables acquisition of advanced cooling systems, efficient hardware, and infrastructure upgrades that substantially improve Power Usage Effectiveness metrics.\"}\n```",
+    "score": 3,
+    "justification": "Capital expenditure directly enables acquisition of advanced cooling systems, efficient hardware, and infrastructure upgrades that substantially improve Power Usage Effectiveness metrics."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Capital expenditure directly enables energy efficiency improvements through investments in modern cooling systems, efficient hardware, and monitoring infrastructure that reduce PUE.\"\n}\n```",
+    "score": 3,
+    "justification": "Capital expenditure directly enables energy efficiency improvements through investments in modern cooling systems, efficient hardware, and monitoring infrastructure that reduce PUE."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":3,\"justification\":\"Capital expenditure significantly impacts energy efficiency through investments in advanced technologies and infrastructure.\"}",
+    "score": 3,
+    "justification": "Capital expenditure significantly impacts energy efficiency through investments in advanced technologies and infrastructure."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":3,\"justification\":\"Increased capital expenditure on energy-efficient technologies directly enhances the energy efficiency of a data center.\"}",
+    "score": 3,
+    "justification": "Increased capital expenditure on energy-efficient technologies directly enhances the energy efficiency of a data center."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 4, \"justification\": \"Capital expenditure is essential for funding advanced, energy-efficient infrastructure and technologies that directly optimize data center PUE.\"}",
+    "score": 4,
+    "justification": "Capital expenditure is essential for funding advanced, energy-efficient infrastructure and technologies that directly optimize data center PUE."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Capital expenditure directly enables the procurement of energy-efficient hardware and advanced cooling systems that significantly improve PUE.\"}\n```",
+    "score": 3,
+    "justification": "Capital expenditure directly enables the procurement of energy-efficient hardware and advanced cooling systems that significantly improve PUE."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 4, \"justification\": \"Capital expenditure is the primary enabler for implementing renewable energy infrastructure (solar panels, wind turbines, grid connections), making it a direct and necessary cause of renewable energy sourcing adoption in data centers.\"}\n```",
+    "score": 4,
+    "justification": "Capital expenditure is the primary enabler for implementing renewable energy infrastructure (solar panels, wind turbines, grid connections), making it a direct and necessary cause of renewable energy sourcing adoption in data centers."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Capital expenditure is a necessary prerequisite for installing renewable energy infrastructure (solar panels, wind turbines, battery storage), making it a strong direct driver of renewable energy sourcing capability.\"\n}\n```",
+    "score": 3,
+    "justification": "Capital expenditure is a necessary prerequisite for installing renewable energy infrastructure (solar panels, wind turbines, battery storage), making it a strong direct driver of renewable energy sourcing capability."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Capital expenditure significantly impacts investments in renewable energy technologies and infrastructure for data centers.\"}",
+    "score": 3,
+    "justification": "Capital expenditure significantly impacts investments in renewable energy technologies and infrastructure for data centers."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Higher capital expenditure enables investment in renewable energy technologies and infrastructure.\"}",
+    "score": 3,
+    "justification": "Higher capital expenditure enables investment in renewable energy technologies and infrastructure."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 4, \"justification\": \"Capital expenditure is essential for funding and procuring renewable energy infrastructure and contracts for a data center.\"}",
+    "score": 4,
+    "justification": "Capital expenditure is essential for funding and procuring renewable energy infrastructure and contracts for a data center."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Significant upfront capital is required to invest in and procure dedicated renewable energy infrastructure like solar arrays or PPAs.\"}\n```",
+    "score": 3,
+    "justification": "Significant upfront capital is required to invest in and procure dedicated renewable energy infrastructure like solar arrays or PPAs."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 4, \"justification\": \"Capital expenditure directly enables the acquisition and implementation of advanced cooling technologies, making it the primary determinant of cooling technology advancement in data centers.\"}\n```",
+    "score": 4,
+    "justification": "Capital expenditure directly enables the acquisition and implementation of advanced cooling technologies, making it the primary determinant of cooling technology advancement in data centers."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 3,\n  \"justification\": \"Capital expenditure directly enables the adoption and implementation of advanced cooling technologies by providing the financial resources necessary for R&D, procurement, and infrastructure deployment of liquid cooling systems.\"\n}\n```",
+    "score": 3,
+    "justification": "Capital expenditure directly enables the adoption and implementation of advanced cooling technologies by providing the financial resources necessary for R&D, procurement, and infrastructure deployment of liquid cooling systems."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Capital expenditure significantly influences the development of advanced cooling technologies necessary for enhancing sustainability in data centers.\"}",
+    "score": 3,
+    "justification": "Capital expenditure significantly influences the development of advanced cooling technologies necessary for enhancing sustainability in data centers."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":3,\"justification\":\"Increased capital expenditure enables investment in innovative cooling technologies, significantly advancing their development and implementation.\"}",
+    "score": 3,
+    "justification": "Increased capital expenditure enables investment in innovative cooling technologies, significantly advancing their development and implementation."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 4, \"justification\": \"High capital expenditure is essential to fund and deploy advanced cooling technologies like liquid cooling in data centers.\"}",
+    "score": 4,
+    "justification": "High capital expenditure is essential to fund and deploy advanced cooling technologies like liquid cooling in data centers."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 4, \"justification\": \"Substantial capital expenditure is essential to fund the research, development, and deployment of advanced cooling infrastructure like liquid cooling.\"}\n```",
+    "score": 4,
+    "justification": "Substantial capital expenditure is essential to fund the research, development, and deployment of advanced cooling infrastructure like liquid cooling."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Capital expenditure has minimal direct influence on regulatory and compliance risk, as compliance is primarily driven by regulatory requirements and operational practices rather than spending levels.\"}\n```",
+    "score": 1,
+    "justification": "Capital expenditure has minimal direct influence on regulatory and compliance risk, as compliance is primarily driven by regulatory requirements and operational practices rather than spending levels."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Capital expenditure influences regulatory compliance risk only indirectly through infrastructure choices; compliance is primarily driven by regulatory requirements rather than spending levels.\"\n}\n```",
+    "score": 1,
+    "justification": "Capital expenditure influences regulatory compliance risk only indirectly through infrastructure choices; compliance is primarily driven by regulatory requirements rather than spending levels."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":2,\"justification\":\"Capital expenditure can moderately influence regulatory and compliance risk by funding sustainability initiatives that align with regulations.\"}",
+    "score": 2,
+    "justification": "Capital expenditure can moderately influence regulatory and compliance risk by funding sustainability initiatives that align with regulations."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 1, \"justification\": \"Capital expenditure may indirectly influence regulatory and compliance risk through investments in sustainable technologies, but the direct causal link is weak.\"}",
+    "score": 1,
+    "justification": "Capital expenditure may indirectly influence regulatory and compliance risk through investments in sustainable technologies, but the direct causal link is weak."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Increased capital expenditure on green technologies directly mitigates regulatory and compliance risks related to environmental standards.\"}",
+    "score": 2,
+    "justification": "Increased capital expenditure on green technologies directly mitigates regulatory and compliance risks related to environmental standards."
+  },
+  {
+    "ci": "CAPEX",
+    "cj": "REG",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Capital expenditure on modern, compliant infrastructure directly mitigates, and thus causes a reduction in, regulatory and compliance risks.\"}\n```",
+    "score": 2,
+    "justification": "Capital expenditure on modern, compliant infrastructure directly mitigates, and thus causes a reduction in, regulatory and compliance risks."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Regulatory compliance requirements may indirectly encourage efficiency improvements, but do not directly cause technical changes in PUE metrics.\"}\n```",
+    "score": 1,
+    "justification": "Regulatory compliance requirements may indirectly encourage efficiency improvements, but do not directly cause technical changes in PUE metrics."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Regulatory compliance indirectly incentivizes energy efficiency improvements, but does not directly cause PUE optimization—operational and technical factors are the primary drivers.\"\n}\n```",
+    "score": 1,
+    "justification": "Regulatory compliance indirectly incentivizes energy efficiency improvements, but does not directly cause PUE optimization—operational and technical factors are the primary drivers."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Regulatory and compliance risk can moderate energy efficiency initiatives but is not the primary driver.\"}",
+    "score": 2,
+    "justification": "Regulatory and compliance risk can moderate energy efficiency initiatives but is not the primary driver."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 2, \"justification\": \"Regulatory and compliance risks can incentivize data centers to improve energy efficiency but are not the sole drivers.\"}",
+    "score": 2,
+    "justification": "Regulatory and compliance risks can incentivize data centers to improve energy efficiency but are not the sole drivers."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Stringent energy regulations and carbon reporting mandates directly drive data centers to optimize their Power Usage Effectiveness.\"}",
+    "score": 3,
+    "justification": "Stringent energy regulations and carbon reporting mandates directly drive data centers to optimize their Power Usage Effectiveness."
+  },
+  {
+    "ci": "REG",
+    "cj": "PUE",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Compliance mandates and reporting standards create medium pressure for data centers to optimize their PUE.\"}\n```",
+    "score": 2,
+    "justification": "Compliance mandates and reporting standards create medium pressure for data centers to optimize their PUE."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Regulatory and compliance requirements directly drive data center adoption of renewable energy through mandates, carbon regulations, and sustainability reporting standards that necessitate sourcing changes.\"}\n```",
+    "score": 3,
+    "justification": "Regulatory and compliance requirements directly drive data center adoption of renewable energy through mandates, carbon regulations, and sustainability reporting standards that necessitate sourcing changes."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 2,\n  \"justification\": \"Regulatory requirements and compliance mandates create moderate pressure to adopt renewable energy, but market economics, technology availability, and corporate sustainability goals are often equally or more influential drivers.\"\n}\n```",
+    "score": 2,
+    "justification": "Regulatory requirements and compliance mandates create moderate pressure to adopt renewable energy, but market economics, technology availability, and corporate sustainability goals are often equally or more influential drivers."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Regulatory and compliance risk significantly affects the adoption of renewable energy sourcing to meet sustainability goals.\"}",
+    "score": 3,
+    "justification": "Regulatory and compliance risk significantly affects the adoption of renewable energy sourcing to meet sustainability goals."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Regulatory and compliance requirements often mandate or incentivize the use of renewable energy sources for sustainability.\"}",
+    "score": 3,
+    "justification": "Regulatory and compliance requirements often mandate or incentivize the use of renewable energy sources for sustainability."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Regulatory mandates and carbon compliance frameworks directly drive and compel data centers to increase their renewable energy sourcing.\"}",
+    "score": 3,
+    "justification": "Regulatory mandates and carbon compliance frameworks directly drive and compel data centers to increase their renewable energy sourcing."
+  },
+  {
+    "ci": "REG",
+    "cj": "REN",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Stricter environmental regulations and carbon emission mandates directly compel data centers to prioritize and increase their renewable energy sourcing.\"}\n```",
+    "score": 3,
+    "justification": "Stricter environmental regulations and carbon emission mandates directly compel data centers to prioritize and increase their renewable energy sourcing."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 1, \"justification\": \"Regulatory compliance drives some cooling standards but is not a primary direct cause of cooling technology advancement, which is mainly driven by operational efficiency needs and thermal management demands.\"}\n```",
+    "score": 1,
+    "justification": "Regulatory compliance drives some cooling standards but is not a primary direct cause of cooling technology advancement, which is mainly driven by operational efficiency needs and thermal management demands."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 1,\n  \"justification\": \"Regulatory compliance creates indirect pressure through energy efficiency mandates, but cooling technology advancement is primarily driven by operational efficiency needs and cost reduction rather than direct regulatory causation.\"\n}\n```",
+    "score": 1,
+    "justification": "Regulatory compliance creates indirect pressure through energy efficiency mandates, but cooling technology advancement is primarily driven by operational efficiency needs and cost reduction rather than direct regulatory causation."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":2,\"justification\":\"Regulatory and compliance risk can moderately drive the need for advancements in cooling technology to meet sustainability standards.\"}",
+    "score": 2,
+    "justification": "Regulatory and compliance risk can moderately drive the need for advancements in cooling technology to meet sustainability standards."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\":2,\"justification\":\"Regulatory and compliance risks create pressure for improved energy efficiency, which can drive advancements in cooling technologies.\"}",
+    "score": 2,
+    "justification": "Regulatory and compliance risks create pressure for improved energy efficiency, which can drive advancements in cooling technologies."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 2, \"justification\": \"Stricter regulations on energy efficiency and emissions moderately drive the adoption of advanced cooling technologies like liquid cooling.\"}",
+    "score": 2,
+    "justification": "Stricter regulations on energy efficiency and emissions moderately drive the adoption of advanced cooling technologies like liquid cooling."
+  },
+  {
+    "ci": "REG",
+    "cj": "COOL",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"score\": 3, \"justification\": \"Stringent environmental regulations and energy efficiency mandates directly drive the adoption of advanced cooling technologies like liquid cooling.\"}\n```",
+    "score": 3,
+    "justification": "Stringent environmental regulations and energy efficiency mandates directly drive the adoption of advanced cooling technologies like liquid cooling."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"score\": 2, \"justification\": \"Regulatory compliance requirements moderately drive capital investments in data center infrastructure upgrades, cooling systems, and energy efficiency improvements, but are not the primary driver of capex decisions.\"}\n```",
+    "score": 2,
+    "justification": "Regulatory compliance requirements moderately drive capital investments in data center infrastructure upgrades, cooling systems, and energy efficiency improvements, but are not the primary driver of capex decisions."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"score\": 2,\n  \"justification\": \"Regulatory compliance requirements mandate specific infrastructure upgrades and certifications, necessitating moderate capital investment, but other factors like operational needs and technology refresh cycles also significantly drive capex decisions.\"\n}\n```",
+    "score": 2,
+    "justification": "Regulatory compliance requirements mandate specific infrastructure upgrades and certifications, necessitating moderate capital investment, but other factors like operational needs and technology refresh cycles also significantly drive capex decisions."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"score\":2,\"justification\":\"Regulatory and compliance risk can moderately influence capital expenditure as data centers may need to invest in compliance-related upgrades.\"}",
+    "score": 2,
+    "justification": "Regulatory and compliance risk can moderately influence capital expenditure as data centers may need to invest in compliance-related upgrades."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Regulatory and compliance risks often necessitate significant investments in technology and infrastructure to meet standards.\"}",
+    "score": 3,
+    "justification": "Regulatory and compliance risks often necessitate significant investments in technology and infrastructure to meet standards."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"score\": 3, \"justification\": \"Regulatory and compliance mandates often force significant capital investments in green technologies and infrastructure upgrades.\"}",
+    "score": 3,
+    "justification": "Regulatory and compliance mandates often force significant capital investments in green technologies and infrastructure upgrades."
+  },
+  {
+    "ci": "REG",
+    "cj": "CAPEX",
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "{\"score\": 3, \"justification\": \"Stricter environmental and data retention regulations directly force data centers to make significant capital investments in compliance technologies and infrastructure upgrades.\"}",
+    "score": 3,
+    "justification": "Stricter environmental and data retention regulations directly force data centers to make significant capital investments in compliance technologies and infrastructure upgrades."
+  }
+]

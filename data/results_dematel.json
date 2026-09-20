@@ -1,0 +1,269 @@
+{
+  "criteria": [
+    "PUE",
+    "REN",
+    "COOL",
+    "CAPEX",
+    "REG"
+  ],
+  "type_counts": {
+    "COHERENT": 18,
+    "CONFLICTING": 2,
+    "OPPOSED": 0,
+    "INSUFFICIENT": 0
+  },
+  "n_pairs": 20,
+  "withheld_pairs": [
+    "PUE->CAPEX",
+    "REN->REG"
+  ],
+  "D_gated": [
+    [
+      0.0,
+      1.8333333333333333,
+      2.6666666666666665,
+      0.0,
+      1.8333333333333333
+    ],
+    [
+      1.6666666666666667,
+      0.0,
+      1.5,
+      3.0,
+      0.0
+    ],
+    [
+      3.5,
+      1.3333333333333333,
+      0.0,
+      3.1666666666666665,
+      1.3333333333333333
+    ],
+    [
+      3.1666666666666665,
+      3.3333333333333335,
+      3.5,
+      0.0,
+      1.5
+    ],
+    [
+      1.8333333333333333,
+      2.8333333333333335,
+      1.8333333333333333,
+      2.5,
+      0.0
+    ]
+  ],
+  "D_naive": [
+    [
+      0.0,
+      1.8333333333333333,
+      2.6666666666666665,
+      2.8333333333333335,
+      1.8333333333333333
+    ],
+    [
+      1.6666666666666667,
+      0.0,
+      1.5,
+      3.0,
+      2.0
+    ],
+    [
+      3.5,
+      1.3333333333333333,
+      0.0,
+      3.1666666666666665,
+      1.3333333333333333
+    ],
+    [
+      3.1666666666666665,
+      3.3333333333333335,
+      3.5,
+      0.0,
+      1.5
+    ],
+    [
+      1.8333333333333333,
+      2.8333333333333335,
+      1.8333333333333333,
+      2.5,
+      0.0
+    ]
+  ],
+  "prominence_gated": [
+    5.233026193131808,
+    4.957748537015617,
+    5.9625287702634,
+    6.1149190625347485,
+    4.4587256831132445
+  ],
+  "net_gated": [
+    -1.1847844764048259,
+    -0.7360142796828333,
+    -0.06558680284104312,
+    0.7597903197925353,
+    1.2265952391361663
+  ],
+  "prominence_naive": [
+    9.862416772588556,
+    8.968399370725233,
+    9.711209570460191,
+    11.203510286916371,
+    8.085477649072322
+  ],
+  "net_naive": [
+    -0.47228077454788764,
+    -0.43238752660093915,
+    -0.10562680510180567,
+    -0.029874308737671385,
+    1.0401694149883038
+  ],
+  "dispersion_mean": 0.95,
+  "dispersion_max": 1.5,
+  "semantic_entropy_mean": 0.7025596358401386,
+  "semantic_entropy_max": 0.8710490642551527,
+  "corr_dispersion_semanticentropy": 0.3735403669733496,
+  "cells_detail": {
+    "PUE->REN": {
+      "type": "COHERENT",
+      "gated_value": 1.8333333333333333,
+      "naive_value": 1.833,
+      "dispersion": 1.5,
+      "semantic_entropy": 0.871
+    },
+    "PUE->COOL": {
+      "type": "COHERENT",
+      "gated_value": 2.6666666666666665,
+      "naive_value": 2.667,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.742
+    },
+    "PUE->CAPEX": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.833,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.564
+    },
+    "PUE->REG": {
+      "type": "COHERENT",
+      "gated_value": 1.8333333333333333,
+      "naive_value": 1.833,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.484
+    },
+    "REN->PUE": {
+      "type": "COHERENT",
+      "gated_value": 1.6666666666666667,
+      "naive_value": 1.667,
+      "dispersion": 1.5,
+      "semantic_entropy": 0.871
+    },
+    "REN->COOL": {
+      "type": "COHERENT",
+      "gated_value": 1.5,
+      "naive_value": 1.5,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.742
+    },
+    "REN->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 3.0,
+      "naive_value": 3.0,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.742
+    },
+    "REN->REG": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.0,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.871
+    },
+    "COOL->PUE": {
+      "type": "COHERENT",
+      "gated_value": 3.5,
+      "naive_value": 3.5,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.355
+    },
+    "COOL->REN": {
+      "type": "COHERENT",
+      "gated_value": 1.3333333333333333,
+      "naive_value": 1.333,
+      "dispersion": 1.5,
+      "semantic_entropy": 0.742
+    },
+    "COOL->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 3.1666666666666665,
+      "naive_value": 3.167,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.564
+    },
+    "COOL->REG": {
+      "type": "COHERENT",
+      "gated_value": 1.3333333333333333,
+      "naive_value": 1.333,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.484
+    },
+    "CAPEX->PUE": {
+      "type": "COHERENT",
+      "gated_value": 3.1666666666666665,
+      "naive_value": 3.167,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.564
+    },
+    "CAPEX->REN": {
+      "type": "COHERENT",
+      "gated_value": 3.3333333333333335,
+      "naive_value": 3.333,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.742
+    },
+    "CAPEX->COOL": {
+      "type": "COHERENT",
+      "gated_value": 3.5,
+      "naive_value": 3.5,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.871
+    },
+    "CAPEX->REG": {
+      "type": "COHERENT",
+      "gated_value": 1.5,
+      "naive_value": 1.5,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.742
+    },
+    "REG->PUE": {
+      "type": "COHERENT",
+      "gated_value": 1.8333333333333333,
+      "naive_value": 1.833,
+      "dispersion": 1.5,
+      "semantic_entropy": 0.742
+    },
+    "REG->REN": {
+      "type": "COHERENT",
+      "gated_value": 2.8333333333333335,
+      "naive_value": 2.833,
+      "dispersion": 0.5,
+      "semantic_entropy": 0.871
+    },
+    "REG->COOL": {
+      "type": "COHERENT",
+      "gated_value": 1.8333333333333333,
+      "naive_value": 1.833,
+      "dispersion": 1.5,
+      "semantic_entropy": 0.742
+    },
+    "REG->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 2.5,
+      "naive_value": 2.5,
+      "dispersion": 1.0,
+      "semantic_entropy": 0.742
+    }
+  }
+}
