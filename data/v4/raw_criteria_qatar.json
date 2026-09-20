@@ -1,0 +1,362 @@
+[
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Energy Efficiency\", \"Water Conservation\", \"Renewable Energy Integration\", \"Operational Cost Reduction\", \"Scalability and Flexibility\"]}\n```",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Conservation",
+      "Renewable Energy Integration",
+      "Operational Cost Reduction",
+      "Scalability and Flexibility"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Water Conservation Efficiency\", \"Renewable Energy Integration\", \"Operational Reliability\", \"Capital Investment Cost\", \"Regulatory Compliance\"]}",
+    "criteria": [
+      "Water Conservation Efficiency",
+      "Renewable Energy Integration",
+      "Operational Reliability",
+      "Capital Investment Cost",
+      "Regulatory Compliance"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Water scarcity mitigation\", \"Renewable energy integration\", \"Climatic cooling efficiency\", \"Regulatory compliance standards\", \"Scalable infrastructure capacity\"]}",
+    "criteria": [
+      "Water scarcity mitigation",
+      "Renewable energy integration",
+      "Climatic cooling efficiency",
+      "Regulatory compliance standards",
+      "Scalable infrastructure capacity"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"energy efficiency\", \"water conservation\", \"renewable energy integration\", \"operational reliability\", \"capital expenditure\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy integration",
+      "operational reliability",
+      "capital expenditure"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"Energy efficiency optimization\", \"Water consumption reduction\", \"Renewable energy integration\", \"Operational cost management\", \"Cooling system performance\"]}\n```",
+    "criteria": [
+      "Energy efficiency optimization",
+      "Water consumption reduction",
+      "Renewable energy integration",
+      "Operational cost management",
+      "Cooling system performance"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Energy efficiency optimization\",\n    \"Water consumption reduction\",\n    \"Renewable energy integration\",\n    \"Operational cost management\",\n    \"Cooling system performance\"\n  ]\n}\n```",
+    "criteria": [
+      "Energy efficiency optimization",
+      "Water consumption reduction",
+      "Renewable energy integration",
+      "Operational cost management",
+      "Cooling system performance"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Conservation\", \"Renewable Energy\", \"Cooling Systems\", \"Carbon Footprint\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Conservation",
+      "Renewable Energy",
+      "Cooling Systems",
+      "Carbon Footprint"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"criteria\":[\"energy efficiency\",\"water conservation\",\"renewable energy integration\",\"operational cost\",\"scalability and flexibility\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy integration",
+      "operational cost",
+      "scalability and flexibility"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"energy efficiency\", \"water conservation\", \"renewable integration\", \"operational resilience\", \"scalability\"]}\n```",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable integration",
+      "operational resilience",
+      "scalability"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Conservation\", \"Renewable Energy Utilization\", \"Cooling Technology Innovation\", \"Operational Scalability\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Conservation",
+      "Renewable Energy Utilization",
+      "Cooling Technology Innovation",
+      "Operational Scalability"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"Water cooling efficiency\", \"Renewable energy integration\", \"Operational cost reduction\", \"Grid reliability compliance\", \"Thermal management optimization\"]}\n```",
+    "criteria": [
+      "Water cooling efficiency",
+      "Renewable energy integration",
+      "Operational cost reduction",
+      "Grid reliability compliance",
+      "Thermal management optimization"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"Water Conservation\", \"Renewable Energy\", \"Energy Efficiency\", \"Operational Cost\", \"Carbon Footprint\"]}",
+    "criteria": [
+      "Water Conservation",
+      "Renewable Energy",
+      "Energy Efficiency",
+      "Operational Cost",
+      "Carbon Footprint"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy integration\",\n    \"Water efficiency measures\",\n    \"Operational cost reduction\",\n    \"Energy consumption optimization\",\n    \"Environmental impact assessment\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy integration",
+      "Water efficiency measures",
+      "Operational cost reduction",
+      "Energy consumption optimization",
+      "Environmental impact assessment"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"energy efficiency\", \"water conservation\", \"renewable energy integration\", \"operational resilience\", \"scalability\"]}\n```",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy integration",
+      "operational resilience",
+      "scalability"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"energy efficiency\", \"water scarcity\", \"renewable energy\", \"operational reliability\", \"market growth\"]}\n```",
+    "criteria": [
+      "energy efficiency",
+      "water scarcity",
+      "renewable energy",
+      "operational reliability",
+      "market growth"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 0,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"energy efficiency\",\n    \"water conservation\",\n    \"renewable energy\",\n    \"operational reliability\",\n    \"market scalability\"\n  ]\n}\n```",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy",
+      "operational reliability",
+      "market scalability"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 2,
+    "raw_response": "```json\n{\n  \"criteria\": [\"Energy Efficiency Strategies\", \"Renewable Energy Integration\", \"Water Conservation Methods\", \"Cooling Systems Optimization\", \"Operational Cost Reduction\"]\n}\n```",
+    "criteria": [
+      "Energy Efficiency Strategies",
+      "Renewable Energy Integration",
+      "Water Conservation Methods",
+      "Cooling Systems Optimization",
+      "Operational Cost Reduction"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable Energy Integration\",\n    \"Water Usage Efficiency\",\n    \"Operational Cost Reduction\",\n    \"Infrastructure Cooling Solutions\",\n    \"Market Growth Adaptability\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable Energy Integration",
+      "Water Usage Efficiency",
+      "Operational Cost Reduction",
+      "Infrastructure Cooling Solutions",
+      "Market Growth Adaptability"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 2,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Energy efficiency\",\n    \"Cooling system design\",\n    \"Water management\",\n    \"Renewable energy sources\",\n    \"Operational costs\"\n  ]\n}\n```",
+    "criteria": [
+      "Energy efficiency",
+      "Cooling system design",
+      "Water management",
+      "Renewable energy sources",
+      "Operational costs"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Management\", \"Climate Adaptation\", \"Market Growth\", \"Renewable Integration\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Management",
+      "Climate Adaptation",
+      "Market Growth",
+      "Renewable Integration"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"renewable energy integration\", \"water usage efficiency\", \"operational cost reduction\", \"cooling system efficiency\", \"sustainability certification\"]}\n```",
+    "criteria": [
+      "renewable energy integration",
+      "water usage efficiency",
+      "operational cost reduction",
+      "cooling system efficiency",
+      "sustainability certification"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 0,
+    "raw_response": "{\n    \"criteria\": [\n        \"Renewable Energy Integration\",\n        \"Water Conservation\",\n        \"Energy Efficiency\",\n        \"Sustainable Cooling\",\n        \"Operational Resilience\"\n    ]\n}",
+    "criteria": [
+      "Renewable Energy Integration",
+      "Water Conservation",
+      "Energy Efficiency",
+      "Sustainable Cooling",
+      "Operational Resilience"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"energy efficiency\", \"water conservation\", \"renewable energy integration\", \"operational reliability\", \"cost effectiveness\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy integration",
+      "operational reliability",
+      "cost effectiveness"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Cooling Energy Efficiency\", \"Water Consumption Reduction\", \"Renewable Energy Integration\", \"Operational Reliability Assurance\", \"Scalability for Growth\"]}",
+    "criteria": [
+      "Cooling Energy Efficiency",
+      "Water Consumption Reduction",
+      "Renewable Energy Integration",
+      "Operational Reliability Assurance",
+      "Scalability for Growth"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Conservation\", \"Renewable Capacity\", \"Operational Cost\", \"Market Growth\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Conservation",
+      "Renewable Capacity",
+      "Operational Cost",
+      "Market Growth"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable Energy Sources\",\n    \"Water Efficiency\",\n    \"Climate Control\",\n    \"Market Growth\",\n    \"Operational Costs\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable Energy Sources",
+      "Water Efficiency",
+      "Climate Control",
+      "Market Growth",
+      "Operational Costs"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Renewable Energy Integration\", \"Cooling Efficiency Optimization\", \"Water Usage Minimization\", \"Power Infrastructure Reliability\", \"Scalability Capacity Planning\"]}",
+    "criteria": [
+      "Renewable Energy Integration",
+      "Cooling Efficiency Optimization",
+      "Water Usage Minimization",
+      "Power Infrastructure Reliability",
+      "Scalability Capacity Planning"
+    ]
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"energy efficiency\", \"water conservation\", \"renewable integration\", \"operational resilience\", \"cost optimization\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable integration",
+      "operational resilience",
+      "cost optimization"
+    ]
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Usage\", \"Renewable Integration\", \"Cooling Solutions\", \"Operational Resilience\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Usage",
+      "Renewable Integration",
+      "Cooling Solutions",
+      "Operational Resilience"
+    ]
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Water Usage\", \"Renewable Energy\", \"Operational Reliability\", \"Cost Effectiveness\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Usage",
+      "Renewable Energy",
+      "Operational Reliability",
+      "Cost Effectiveness"
+    ]
+  }
+]

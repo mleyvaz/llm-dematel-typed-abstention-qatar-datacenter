@@ -1,0 +1,381 @@
+{
+  "criteria": [
+    "Renewable energy",
+    "Water usage / cooling",
+    "Energy efficiency",
+    "Capital and operating cost",
+    "Grid connection capacity",
+    "Regulatory compliance"
+  ],
+  "responses": [
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 10, \"Energy efficiency\": 15, \"Capital and operating cost\": 15, \"Grid connection capacity\": 20, \"Regulatory compliance\": 15}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 15.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Grid connection capacity\": 30, \"Renewable energy\": 25, \"Capital and operating cost\": 15, \"Energy efficiency\": 15, \"Regulatory compliance\": 10, \"Water usage / cooling\": 5}}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 5.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 30.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy\":30,\"Water usage / cooling\":20,\"Energy efficiency\":15,\"Capital and operating cost\":10,\"Grid connection capacity\":15,\"Regulatory compliance\":10}}\n```",
+      "weights": {
+        "Renewable energy": 30.0,
+        "Water usage / cooling": 20.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 10.0,
+        "Grid connection capacity": 15.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy\":30,\"Water usage / cooling\":15,\"Energy efficiency\":20,\"Capital and operating cost\":15,\"Grid connection capacity\":10,\"Regulatory compliance\":10}}\n```",
+      "weights": {
+        "Renewable energy": 30.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Grid connection capacity\": 35,\n    \"Renewable energy\": 25,\n    \"Regulatory compliance\": 20,\n    \"Energy efficiency\": 10,\n    \"Water usage / cooling\": 5,\n    \"Capital and operating cost\": 5\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 5.0,
+        "Energy efficiency": 10.0,
+        "Capital and operating cost": 5.0,
+        "Grid connection capacity": 35.0,
+        "Regulatory compliance": 20.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy\": 28, \"Water usage / cooling\": 22, \"Energy efficiency\": 18, \"Capital and operating cost\": 12, \"Grid connection capacity\": 10, \"Regulatory compliance\": 10}}\n```",
+      "weights": {
+        "Renewable energy": 28.0,
+        "Water usage / cooling": 22.0,
+        "Energy efficiency": 18.0,
+        "Capital and operating cost": 12.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy\": 28, \"Water usage / cooling\": 22, \"Energy efficiency\": 18, \"Capital and operating cost\": 15, \"Grid connection capacity\": 12, \"Regulatory compliance\": 5}}\n```",
+      "weights": {
+        "Renewable energy": 28.0,
+        "Water usage / cooling": 22.0,
+        "Energy efficiency": 18.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 12.0,
+        "Regulatory compliance": 5.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Grid connection capacity\": 30, \"Renewable energy\": 25, \"Energy efficiency\": 15, \"Capital and operating cost\": 15, \"Regulatory compliance\": 10, \"Water usage / cooling\": 5}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 5.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 30.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy\":30,\"Water usage / cooling\":15,\"Energy efficiency\":25,\"Capital and operating cost\":10,\"Grid connection capacity\":10,\"Regulatory compliance\":10}}\n```",
+      "weights": {
+        "Renewable energy": 30.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 25.0,
+        "Capital and operating cost": 10.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 10, \"Energy efficiency\": 20, \"Capital and operating cost\": 20, \"Grid connection capacity\": 5, \"Regulatory compliance\": 20}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 20.0,
+        "Grid connection capacity": 5.0,
+        "Regulatory compliance": 20.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 10, \"Energy efficiency\": 20, \"Capital and operating cost\": 15, \"Grid connection capacity\": 10, \"Regulatory compliance\": 20}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 20.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 10, \"Energy efficiency\": 20, \"Capital and operating cost\": 20, \"Grid connection capacity\": 5, \"Regulatory compliance\": 20}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 20.0,
+        "Grid connection capacity": 5.0,
+        "Regulatory compliance": 20.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 25,\n    \"Water usage / cooling\": 15,\n    \"Energy efficiency\": 20,\n    \"Capital and operating cost\": 20,\n    \"Grid connection capacity\": 10,\n    \"Regulatory compliance\": 10\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 20.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 30,\n    \"Water usage / cooling\": 20,\n    \"Energy efficiency\": 25,\n    \"Capital and operating cost\": 10,\n    \"Grid connection capacity\": 10,\n    \"Regulatory compliance\": 5\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 30.0,
+        "Water usage / cooling": 20.0,
+        "Energy efficiency": 25.0,
+        "Capital and operating cost": 10.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 5.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Grid connection capacity\": 20,\n    \"Renewable energy\": 20,\n    \"Regulatory compliance\": 20,\n    \"Energy efficiency\": 15,\n    \"Water usage / cooling\": 10,\n    \"Capital and operating cost\": 15\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 20.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 20.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 25,\n    \"Water usage / cooling\": 20,\n    \"Energy efficiency\": 20,\n    \"Capital and operating cost\": 15,\n    \"Grid connection capacity\": 10,\n    \"Regulatory compliance\": 10\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 20.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 10, \"Energy efficiency\": 20, \"Capital and operating cost\": 15, \"Grid connection capacity\": 20, \"Regulatory compliance\": 10}}",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 10.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 15, \"Energy efficiency\": 20, \"Capital and operating cost\": 15, \"Grid connection capacity\": 15, \"Regulatory compliance\": 10}}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 15.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy\": 25, \"Water usage / cooling\": 15, \"Energy efficiency\": 20, \"Capital and operating cost\": 15, \"Grid connection capacity\": 15, \"Regulatory compliance\": 10}}\n```",
+      "weights": {
+        "Renewable energy": 25.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 15.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 20,\n    \"Water usage / cooling\": 15,\n    \"Energy efficiency\": 20,\n    \"Capital and operating cost\": 20,\n    \"Grid connection capacity\": 15,\n    \"Regulatory compliance\": 10\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 20.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 20.0,
+        "Grid connection capacity": 15.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 0,
+      "raw_response": "{\n    \"weights\": {\n        \"Renewable energy\": 15,\n        \"Water usage / cooling\": 20,\n        \"Energy efficiency\": 18,\n        \"Capital and operating cost\": 12,\n        \"Grid connection capacity\": 10,\n        \"Regulatory compliance\": 25\n    }\n}",
+      "weights": {
+        "Renewable energy": 15.0,
+        "Water usage / cooling": 20.0,
+        "Energy efficiency": 18.0,
+        "Capital and operating cost": 12.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 25.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 20,\n    \"Water usage / cooling\": 15,\n    \"Energy efficiency\": 20,\n    \"Capital and operating cost\": 15,\n    \"Grid connection capacity\": 20,\n    \"Regulatory compliance\": 10\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 20.0,
+        "Water usage / cooling": 15.0,
+        "Energy efficiency": 20.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 10.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 20, \"Water usage / cooling\": 8, \"Energy efficiency\": 15, \"Capital and operating cost\": 12, \"Grid connection capacity\": 20, \"Regulatory compliance\": 25}}",
+      "weights": {
+        "Renewable energy": 20.0,
+        "Water usage / cooling": 8.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 12.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 25.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 2,
+      "raw_response": "{\n    \"weights\": {\n        \"Renewable energy\": 20,\n        \"Water usage / cooling\": 18,\n        \"Energy efficiency\": 15,\n        \"Capital and operating cost\": 12,\n        \"Grid connection capacity\": 10,\n        \"Regulatory compliance\": 25\n    }\n}",
+      "weights": {
+        "Renewable energy": 20.0,
+        "Water usage / cooling": 18.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 12.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 25.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy\": 15,\n    \"Water usage / cooling\": 20,\n    \"Energy efficiency\": 12,\n    \"Capital and operating cost\": 18,\n    \"Grid connection capacity\": 10,\n    \"Regulatory compliance\": 25\n  }\n}\n```",
+      "weights": {
+        "Renewable energy": 15.0,
+        "Water usage / cooling": 20.0,
+        "Energy efficiency": 12.0,
+        "Capital and operating cost": 18.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 25.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 22, \"Water usage / cooling\": 8, \"Energy efficiency\": 12, \"Capital and operating cost\": 15, \"Grid connection capacity\": 28, \"Regulatory compliance\": 15}}",
+      "weights": {
+        "Renewable energy": 22.0,
+        "Water usage / cooling": 8.0,
+        "Energy efficiency": 12.0,
+        "Capital and operating cost": 15.0,
+        "Grid connection capacity": 28.0,
+        "Regulatory compliance": 15.0
+      }
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 0,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 2,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 1,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Renewable energy\": 30, \"Water usage / cooling\": 5, \"Energy efficiency\": 15, \"Capital and operating cost\": 10, \"Grid connection capacity\": 25, \"Regulatory compliance\": 15}}",
+      "weights": {
+        "Renewable energy": 30.0,
+        "Water usage / cooling": 5.0,
+        "Energy efficiency": 15.0,
+        "Capital and operating cost": 10.0,
+        "Grid connection capacity": 25.0,
+        "Regulatory compliance": 15.0
+      }
+    }
+  ]
+}

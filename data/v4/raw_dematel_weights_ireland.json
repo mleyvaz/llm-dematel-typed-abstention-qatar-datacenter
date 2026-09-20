@@ -1,0 +1,433 @@
+{
+  "criteria": [
+    "PUE",
+    "REN",
+    "COOL",
+    "CAPEX",
+    "REG",
+    "WATER",
+    "GRID"
+  ],
+  "responses": [
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\":{\"Energy efficiency\":20,\"Renewable energy sourcing\":25,\"Cooling technology\":15,\"Capital expenditure\":10,\"Regulatory/compliance risk\":15,\"Water usage / water-scarcity risk\":5,\"Grid connection capacity / power-supply risk\":10}}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 15, \"Renewable energy sourcing\": 20, \"Cooling technology\": 10, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 25}}",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 25.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\":{\"Energy efficiency\":15,\"Renewable energy sourcing\":25,\"Cooling technology\":10,\"Capital expenditure\":10,\"Regulatory/compliance risk\":15,\"Water usage / water-scarcity risk\":5,\"Grid connection capacity / power-supply risk\":20}}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 25.0,
+        "COOL": 10.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 20.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 20, \"Renewable energy sourcing\": 25, \"Cooling technology\": 15, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 10}}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 18,\n    \"Renewable energy sourcing\": 22,\n    \"Cooling technology\": 16,\n    \"Capital expenditure\": 12,\n    \"Regulatory/compliance risk\": 18,\n    \"Water usage / water-scarcity risk\": 8,\n    \"Grid connection capacity / power-supply risk\": 6\n  }\n}\n```",
+      "weights": {
+        "PUE": 18.0,
+        "REN": 22.0,
+        "COOL": 16.0,
+        "CAPEX": 12.0,
+        "REG": 18.0,
+        "WATER": 8.0,
+        "GRID": 6.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 18,\n    \"Renewable energy sourcing\": 28,\n    \"Cooling technology\": 16,\n    \"Capital expenditure\": 12,\n    \"Regulatory/compliance risk\": 15,\n    \"Water usage / water-scarcity risk\": 6,\n    \"Grid connection capacity / power-supply risk\": 9\n  }\n}\n```",
+      "weights": {
+        "PUE": 18.0,
+        "REN": 28.0,
+        "COOL": 16.0,
+        "CAPEX": 12.0,
+        "REG": 15.0,
+        "WATER": 6.0,
+        "GRID": 9.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 10, \"Renewable energy sourcing\": 20, \"Cooling technology\": 5, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 35}}\n```",
+      "weights": {
+        "PUE": 10.0,
+        "REN": 20.0,
+        "COOL": 5.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 35.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 15, \"Renewable energy sourcing\": 20, \"Cooling technology\": 10, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 10, \"Grid connection capacity / power-supply risk\": 20}}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 10.0,
+        "GRID": 20.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy sourcing\": 28,\n    \"Grid connection capacity / power-supply risk\": 22,\n    \"Regulatory/compliance risk\": 18,\n    \"Energy efficiency\": 15,\n    \"Cooling technology\": 10,\n    \"Capital expenditure\": 5,\n    \"Water usage / water-scarcity risk\": 2\n  }\n}\n```",
+      "weights": {
+        "REN": 28.0,
+        "GRID": 22.0,
+        "REG": 18.0,
+        "PUE": 15.0,
+        "COOL": 10.0,
+        "CAPEX": 5.0,
+        "WATER": 2.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 10,\n    \"Capital expenditure\": 15,\n    \"Regulatory/compliance risk\": 10,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 15\n  }\n}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 10.0,
+        "CAPEX": 15.0,
+        "REG": 10.0,
+        "WATER": 5.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 10,\n    \"Water usage / water-scarcity risk\": 10,\n    \"Grid connection capacity / power-supply risk\": 5\n  }\n}\n```",
+      "weights": {
+        "PUE": 25.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 10.0,
+        "WATER": 10.0,
+        "GRID": 5.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 10, \"Renewable energy sourcing\": 25, \"Cooling technology\": 15, \"Capital expenditure\": 15, \"Regulatory/compliance risk\": 20, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 10}}",
+      "weights": {
+        "PUE": 10.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 15.0,
+        "REG": 20.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 10,\n    \"Water usage / water-scarcity risk\": 10,\n    \"Grid connection capacity / power-supply risk\": 10\n  }\n}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 10.0,
+        "WATER": 10.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 15,\n    \"Regulatory/compliance risk\": 10,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 10\n  }\n}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 15.0,
+        "REG": 10.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 15, \"Renewable energy sourcing\": 20, \"Cooling technology\": 10, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 15, \"Grid connection capacity / power-supply risk\": 15}}",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 15.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 25, \"Renewable energy sourcing\": 20, \"Cooling technology\": 15, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 10}}\n```",
+      "weights": {
+        "PUE": 25.0,
+        "REN": 20.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 25, \"Renewable energy sourcing\": 20, \"Cooling technology\": 15, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 10, \"Water usage / water-scarcity risk\": 10, \"Grid connection capacity / power-supply risk\": 10}}\n```",
+      "weights": {
+        "PUE": 25.0,
+        "REN": 20.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 10.0,
+        "WATER": 10.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 15,\n    \"Renewable energy sourcing\": 20,\n    \"Cooling technology\": 12,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 15,\n    \"Water usage / water-scarcity risk\": 13,\n    \"Grid connection capacity / power-supply risk\": 15\n  }\n}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 12.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 13.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 15,\n    \"Renewable energy sourcing\": 20,\n    \"Cooling technology\": 10,\n    \"Capital expenditure\": 15,\n    \"Regulatory/compliance risk\": 20,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 15\n  }\n}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 15.0,
+        "REG": 20.0,
+        "WATER": 5.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 15,\n    \"Renewable energy sourcing\": 20,\n    \"Cooling technology\": 10,\n    \"Capital expenditure\": 15,\n    \"Regulatory/compliance risk\": 15,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 20\n  }\n}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 15.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 20.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 10, \"Renewable energy sourcing\": 25, \"Cooling technology\": 15, \"Capital expenditure\": 15, \"Regulatory/compliance risk\": 10, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 20}}",
+      "weights": {
+        "PUE": 10.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 15.0,
+        "REG": 10.0,
+        "WATER": 5.0,
+        "GRID": 20.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 10,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 15\n  }\n}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 10.0,
+        "WATER": 5.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 18, \"Renewable energy sourcing\": 25, \"Cooling technology\": 12, \"Capital expenditure\": 15, \"Regulatory/compliance risk\": 10, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 15}}",
+      "weights": {
+        "PUE": 18.0,
+        "REN": 25.0,
+        "COOL": 12.0,
+        "CAPEX": 15.0,
+        "REG": 10.0,
+        "WATER": 5.0,
+        "GRID": 15.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 15, \"Renewable energy sourcing\": 25, \"Cooling technology\": 8, \"Capital expenditure\": 7, \"Regulatory/compliance risk\": 18, \"Water usage / water-scarcity risk\": 7, \"Grid connection capacity / power-supply risk\": 20}}",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 25.0,
+        "COOL": 8.0,
+        "CAPEX": 7.0,
+        "REG": 18.0,
+        "WATER": 7.0,
+        "GRID": 20.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 12, \"Renewable energy sourcing\": 20, \"Cooling technology\": 10, \"Capital expenditure\": 8, \"Regulatory/compliance risk\": 20, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 25}}",
+      "weights": {
+        "PUE": 12.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 8.0,
+        "REG": 20.0,
+        "WATER": 5.0,
+        "GRID": 25.0
+      }
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Renewable energy sourcing\": 20, \"Cooling technology\": 15, \"Capital expenditure\": 10, \"Regulatory/compliance risk\": 15, \"Water usage / water-scarcity risk\": 5, \"Grid connection capacity / power-supply risk\": 10}}",
+      "weights": {
+        "PUE": 25.0,
+        "REN": 20.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Renewable energy sourcing\": 20,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 15,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 10\n  }\n}\n```",
+      "weights": {
+        "PUE": 25.0,
+        "REN": 20.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Renewable energy sourcing\": 25,\n    \"Cooling technology\": 15,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 15,\n    \"Water usage / water-scarcity risk\": 5,\n    \"Grid connection capacity / power-supply risk\": 10\n  }\n}\n```",
+      "weights": {
+        "PUE": 20.0,
+        "REN": 25.0,
+        "COOL": 15.0,
+        "CAPEX": 10.0,
+        "REG": 15.0,
+        "WATER": 5.0,
+        "GRID": 10.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 15, \"Renewable energy sourcing\": 20, \"Cooling technology\": 10, \"Capital expenditure\": 7, \"Regulatory/compliance risk\": 18, \"Water usage / water-scarcity risk\": 8, \"Grid connection capacity / power-supply risk\": 22}}",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 20.0,
+        "COOL": 10.0,
+        "CAPEX": 7.0,
+        "REG": 18.0,
+        "WATER": 8.0,
+        "GRID": 22.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 15,\n    \"Renewable energy sourcing\": 18,\n    \"Cooling technology\": 12,\n    \"Capital expenditure\": 10,\n    \"Regulatory/compliance risk\": 13,\n    \"Water usage / water-scarcity risk\": 12,\n    \"Grid connection capacity / power-supply risk\": 20\n  }\n}\n```",
+      "weights": {
+        "PUE": 15.0,
+        "REN": 18.0,
+        "COOL": 12.0,
+        "CAPEX": 10.0,
+        "REG": 13.0,
+        "WATER": 12.0,
+        "GRID": 20.0
+      }
+    }
+  ]
+}

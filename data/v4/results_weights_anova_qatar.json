@@ -1,0 +1,112 @@
+{
+  "context": "qatar",
+  "criteria": [
+    "Energy efficiency",
+    "Water usage / cooling",
+    "Renewable energy",
+    "Capital and operating cost",
+    "Scalability and reliability"
+  ],
+  "per_criterion": {
+    "Energy efficiency": {
+      "overall_mean": 24.555555555555557,
+      "model_means": {
+        "openai/gpt-4o-mini": 28.333333333333332,
+        "anthropic/claude-haiku-4.5": 26.0,
+        "google/gemini-3.5-flash-lite": 25.0,
+        "meta-llama/llama-3.3-70b-instruct": 21.666666666666668,
+        "amazon/nova-lite-v1": 25.0,
+        "deepseek/deepseek-chat": 26.666666666666668,
+        "cohere/command-r-08-2024": 21.666666666666668,
+        "mistralai/mistral-small-3.1-24b-instruct": 21.666666666666668,
+        "x-ai/grok-4.3": 25.0
+      },
+      "MSW_within_model": 8.74074074074074,
+      "MSB_between_model": 17.416666666666657,
+      "F_stat": 1.9925847457627133,
+      "p_value": 0.1070186876104986,
+      "bias_corrected_between_model_variance": 2.8919753086419724,
+      "significant_at_0.10": false
+    },
+    "Water usage / cooling": {
+      "overall_mean": 24.703703703703702,
+      "model_means": {
+        "openai/gpt-4o-mini": 26.666666666666668,
+        "anthropic/claude-haiku-4.5": 27.333333333333332,
+        "google/gemini-3.5-flash-lite": 26.666666666666668,
+        "meta-llama/llama-3.3-70b-instruct": 23.333333333333332,
+        "amazon/nova-lite-v1": 20.0,
+        "deepseek/deepseek-chat": 25.0,
+        "cohere/command-r-08-2024": 20.0,
+        "mistralai/mistral-small-3.1-24b-instruct": 23.333333333333332,
+        "x-ai/grok-4.3": 30.0
+      },
+      "MSW_within_model": 6.518518518518519,
+      "MSB_between_model": 34.03703703703704,
+      "F_stat": 5.221590909090907,
+      "p_value": 0.0017431357672744565,
+      "bias_corrected_between_model_variance": 9.17283950617284,
+      "significant_at_0.10": true
+    },
+    "Renewable energy": {
+      "overall_mean": 16.037037037037038,
+      "model_means": {
+        "openai/gpt-4o-mini": 18.333333333333332,
+        "anthropic/claude-haiku-4.5": 19.333333333333332,
+        "google/gemini-3.5-flash-lite": 13.333333333333334,
+        "meta-llama/llama-3.3-70b-instruct": 16.666666666666668,
+        "amazon/nova-lite-v1": 16.666666666666668,
+        "deepseek/deepseek-chat": 18.333333333333332,
+        "cohere/command-r-08-2024": 13.333333333333334,
+        "mistralai/mistral-small-3.1-24b-instruct": 15.0,
+        "x-ai/grok-4.3": 13.333333333333334
+      },
+      "MSW_within_model": 9.851851851851853,
+      "MSB_between_model": 16.953703703703695,
+      "F_stat": 1.7208646616541339,
+      "p_value": 0.1612555150043948,
+      "bias_corrected_between_model_variance": 2.367283950617281,
+      "significant_at_0.10": false
+    },
+    "Capital and operating cost": {
+      "overall_mean": 18.37037037037037,
+      "model_means": {
+        "openai/gpt-4o-mini": 16.666666666666668,
+        "anthropic/claude-haiku-4.5": 17.0,
+        "google/gemini-3.5-flash-lite": 15.0,
+        "meta-llama/llama-3.3-70b-instruct": 18.333333333333332,
+        "amazon/nova-lite-v1": 21.666666666666668,
+        "deepseek/deepseek-chat": 16.666666666666668,
+        "cohere/command-r-08-2024": 21.666666666666668,
+        "mistralai/mistral-small-3.1-24b-instruct": 21.666666666666668,
+        "x-ai/grok-4.3": 16.666666666666668
+      },
+      "MSW_within_model": 7.25925925925926,
+      "MSB_between_model": 20.45370370370371,
+      "F_stat": 2.817602040816327,
+      "p_value": 0.0323705810524546,
+      "bias_corrected_between_model_variance": 4.39814814814815,
+      "significant_at_0.10": true
+    },
+    "Scalability and reliability": {
+      "overall_mean": 16.333333333333332,
+      "model_means": {
+        "openai/gpt-4o-mini": 10.0,
+        "anthropic/claude-haiku-4.5": 10.333333333333334,
+        "google/gemini-3.5-flash-lite": 20.0,
+        "meta-llama/llama-3.3-70b-instruct": 20.0,
+        "amazon/nova-lite-v1": 16.666666666666668,
+        "deepseek/deepseek-chat": 13.333333333333334,
+        "cohere/command-r-08-2024": 23.333333333333332,
+        "mistralai/mistral-small-3.1-24b-instruct": 18.333333333333332,
+        "x-ai/grok-4.3": 15.0
+      },
+      "MSW_within_model": 15.296296296296296,
+      "MSB_between_model": 62.583333333333314,
+      "F_stat": 4.091404358353509,
+      "p_value": 0.0062252945682169285,
+      "bias_corrected_between_model_variance": 15.76234567901234,
+      "significant_at_0.10": true
+    }
+  }
+}

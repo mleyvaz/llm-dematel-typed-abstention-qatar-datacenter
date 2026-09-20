@@ -1,0 +1,353 @@
+{
+  "criteria": [
+    "Energy efficiency",
+    "Water usage / cooling",
+    "Renewable energy",
+    "Capital and operating cost",
+    "Scalability and reliability"
+  ],
+  "responses": [
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\":{\"Energy efficiency\":30,\"Water usage / cooling\":25,\"Renewable energy\":20,\"Capital and operating cost\":15,\"Scalability and reliability\":10}}\n```",
+      "weights": {
+        "Energy efficiency": 30.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 22,\n    \"Water usage / cooling\": 28,\n    \"Renewable energy\": 18,\n    \"Capital and operating cost\": 20,\n    \"Scalability and reliability\": 12\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 22.0,
+        "Water usage / cooling": 28.0,
+        "Renewable energy": 18.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 12.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 30, \"Renewable energy\": 15, \"Capital and operating cost\": 15, \"Scalability and reliability\": 15}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 15.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 25, \"Renewable energy\": 15, \"Capital and operating cost\": 15, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 28, \"Water usage / cooling\": 27, \"Renewable energy\": 22, \"Capital and operating cost\": 15, \"Scalability and reliability\": 8}}\n```",
+      "weights": {
+        "Energy efficiency": 28.0,
+        "Water usage / cooling": 27.0,
+        "Renewable energy": 22.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 8.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 20, \"Water usage / cooling\": 25, \"Renewable energy\": 15, \"Capital and operating cost\": 20, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 20.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\":{\"Energy efficiency\":25,\"Water usage / cooling\":30,\"Renewable energy\":15,\"Capital and operating cost\":20,\"Scalability and reliability\":10}}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 20, \"Renewable energy\": 20, \"Capital and operating cost\": 15, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 28, \"Water usage / cooling\": 27, \"Renewable energy\": 18, \"Capital and operating cost\": 16, \"Scalability and reliability\": 11}}\n```",
+      "weights": {
+        "Energy efficiency": 28.0,
+        "Water usage / cooling": 27.0,
+        "Renewable energy": 18.0,
+        "Capital and operating cost": 16.0,
+        "Scalability and reliability": 11.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 25, \"Renewable energy\": 10, \"Capital and operating cost\": 15, \"Scalability and reliability\": 25}}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 10.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 25.0
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 20, \"Water usage / cooling\": 25, \"Renewable energy\": 15, \"Capital and operating cost\": 20, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 20.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Water usage / cooling\": 20,\n    \"Renewable energy\": 20,\n    \"Capital and operating cost\": 20,\n    \"Scalability and reliability\": 15\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 15.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Water usage / cooling\": 20,\n    \"Renewable energy\": 15,\n    \"Capital and operating cost\": 20,\n    \"Scalability and reliability\": 20\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Water usage / cooling\": 20,\n    \"Renewable energy\": 15,\n    \"Capital and operating cost\": 25,\n    \"Scalability and reliability\": 15\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 25.0,
+        "Scalability and reliability": 15.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 30, \"Renewable energy\": 15, \"Capital and operating cost\": 20, \"Scalability and reliability\": 10}}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 20, \"Renewable energy\": 20, \"Capital and operating cost\": 15, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 30, \"Water usage / cooling\": 25, \"Renewable energy\": 20, \"Capital and operating cost\": 15, \"Scalability and reliability\": 10}}\n```",
+      "weights": {
+        "Energy efficiency": 30.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 0,
+      "raw_response": "```json\n{\n    \"weights\": {\n        \"Energy efficiency\": 25,\n        \"Water usage / cooling\": 20,\n        \"Renewable energy\": 15,\n        \"Capital and operating cost\": 20,\n        \"Scalability and reliability\": 20\n    }\n}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Water usage / cooling\": 25,\n    \"Renewable energy\": 15,\n    \"Capital and operating cost\": 20,\n    \"Scalability and reliability\": 20\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 20.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 2,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 20,\n    \"Water usage / cooling\": 25,\n    \"Renewable energy\": 15,\n    \"Capital and operating cost\": 20,\n    \"Scalability and reliability\": 20\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 20.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Energy efficiency\": 30, \"Water usage / cooling\": 25, \"Renewable energy\": 20, \"Capital and operating cost\": 15, \"Scalability and reliability\": 10}}\n```",
+      "weights": {
+        "Energy efficiency": 30.0,
+        "Water usage / cooling": 25.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct",
+      "variant": 0,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 25,\n    \"Water usage / cooling\": 20,\n    \"Renewable energy\": 15,\n    \"Capital and operating cost\": 25,\n    \"Scalability and reliability\": 15\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 25.0,
+        "Scalability and reliability": 15.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 30, \"Renewable energy\": 10, \"Capital and operating cost\": 20, \"Scalability and reliability\": 15}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 10.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 15.0
+      }
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Energy efficiency\": 15,\n    \"Water usage / cooling\": 20,\n    \"Renewable energy\": 10,\n    \"Capital and operating cost\": 25,\n    \"Scalability and reliability\": 30\n  }\n}\n```",
+      "weights": {
+        "Energy efficiency": 15.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 10.0,
+        "Capital and operating cost": 25.0,
+        "Scalability and reliability": 30.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 30, \"Renewable energy\": 20, \"Capital and operating cost\": 15, \"Scalability and reliability\": 10}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 20.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 10.0
+      }
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "variant": 1,
+      "raw_response": "{\"weights\": {\"Energy efficiency\": 25, \"Water usage / cooling\": 30, \"Renewable energy\": 10, \"Capital and operating cost\": 15, \"Scalability and reliability\": 20}}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 30.0,
+        "Renewable energy": 10.0,
+        "Capital and operating cost": 15.0,
+        "Scalability and reliability": 20.0
+      }
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 2,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 0,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "variant": 1,
+      "raw_response": null,
+      "weights": null
+    },
+    {
+      "model": "cohere/command-r-08-2024",
+      "variant": 2,
+      "raw_response": "{\n    \"weights\": {\n        \"Energy efficiency\": 25,\n        \"Water usage / cooling\": 20,\n        \"Renewable energy\": 15,\n        \"Capital and operating cost\": 20,\n        \"Scalability and reliability\": 20\n    }\n}",
+      "weights": {
+        "Energy efficiency": 25.0,
+        "Water usage / cooling": 20.0,
+        "Renewable energy": 15.0,
+        "Capital and operating cost": 20.0,
+        "Scalability and reliability": 20.0
+      }
+    }
+  ]
+}

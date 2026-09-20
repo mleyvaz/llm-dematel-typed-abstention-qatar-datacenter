@@ -1,0 +1,125 @@
+{
+  "context": "ireland",
+  "n_models": 10,
+  "themes": [
+    {
+      "theme": "Renewable energy",
+      "n_distinct_models": 10,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Water usage / cooling",
+      "n_distinct_models": 10,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Energy efficiency",
+      "n_distinct_models": 9,
+      "models": [
+        "amazon/nova-lite-v1",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Capital / operating cost",
+      "n_distinct_models": 9,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Grid connection capacity",
+      "n_distinct_models": 9,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Regulatory compliance",
+      "n_distinct_models": 6,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Carbon footprint / emissions",
+      "n_distinct_models": 4,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "x-ai/grok-4.3"
+      ]
+    },
+    {
+      "theme": "Scalability / reliability",
+      "n_distinct_models": 2,
+      "models": [
+        "meta-llama/llama-3.3-70b-instruct",
+        "openai/gpt-4o-mini"
+      ]
+    },
+    {
+      "theme": "Environmental impact",
+      "n_distinct_models": 1,
+      "models": [
+        "qwen/qwen-2.5-72b-instruct"
+      ]
+    },
+    {
+      "theme": "Market growth / demand",
+      "n_distinct_models": 0,
+      "models": []
+    }
+  ]
+}

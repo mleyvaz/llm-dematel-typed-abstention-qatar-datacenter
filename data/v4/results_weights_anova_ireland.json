@@ -1,0 +1,133 @@
+{
+  "context": "ireland",
+  "criteria": [
+    "Renewable energy",
+    "Water usage / cooling",
+    "Energy efficiency",
+    "Capital and operating cost",
+    "Grid connection capacity",
+    "Regulatory compliance"
+  ],
+  "per_criterion": {
+    "Renewable energy": {
+      "overall_mean": 24.37037037037037,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 25.0,
+        "openai/gpt-4o-mini": 30.0,
+        "anthropic/claude-haiku-4.5": 27.0,
+        "meta-llama/llama-3.3-70b-instruct": 25.0,
+        "amazon/nova-lite-v1": 26.666666666666668,
+        "mistralai/mistral-small-3.1-24b-instruct": 20.0,
+        "deepseek/deepseek-chat": 25.0,
+        "cohere/command-r-08-2024": 16.666666666666668,
+        "x-ai/grok-4.3": 24.0
+      },
+      "MSW_within_model": 5.296296296296297,
+      "MSB_between_model": 46.37037037037037,
+      "F_stat": 8.755244755244757,
+      "p_value": 7.471529289485409e-05,
+      "bias_corrected_between_model_variance": 13.691358024691356,
+      "significant_at_0.10": true
+    },
+    "Water usage / cooling": {
+      "overall_mean": 13.444444444444445,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 6.666666666666667,
+        "openai/gpt-4o-mini": 16.666666666666668,
+        "anthropic/claude-haiku-4.5": 16.333333333333332,
+        "meta-llama/llama-3.3-70b-instruct": 10.0,
+        "amazon/nova-lite-v1": 18.333333333333332,
+        "mistralai/mistral-small-3.1-24b-instruct": 13.333333333333334,
+        "deepseek/deepseek-chat": 13.333333333333334,
+        "cohere/command-r-08-2024": 19.333333333333332,
+        "x-ai/grok-4.3": 7.0
+      },
+      "MSW_within_model": 15.814814814814817,
+      "MSB_between_model": 66.25,
+      "F_stat": 4.18911007025761,
+      "p_value": 0.0055399760900884205,
+      "bias_corrected_between_model_variance": 16.811728395061728,
+      "significant_at_0.10": true
+    },
+    "Energy efficiency": {
+      "overall_mean": 17.703703703703702,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "openai/gpt-4o-mini": 20.0,
+        "anthropic/claude-haiku-4.5": 15.333333333333334,
+        "meta-llama/llama-3.3-70b-instruct": 20.0,
+        "amazon/nova-lite-v1": 21.666666666666668,
+        "mistralai/mistral-small-3.1-24b-instruct": 18.333333333333332,
+        "deepseek/deepseek-chat": 20.0,
+        "cohere/command-r-08-2024": 15.0,
+        "x-ai/grok-4.3": 14.0
+      },
+      "MSW_within_model": 8.333333333333334,
+      "MSB_between_model": 24.70370370370371,
+      "F_stat": 2.9644444444444455,
+      "p_value": 0.026433285437782467,
+      "bias_corrected_between_model_variance": 5.456790123456791,
+      "significant_at_0.10": true
+    },
+    "Capital and operating cost": {
+      "overall_mean": 14.296296296296296,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "openai/gpt-4o-mini": 11.666666666666666,
+        "anthropic/claude-haiku-4.5": 10.666666666666666,
+        "meta-llama/llama-3.3-70b-instruct": 18.333333333333332,
+        "amazon/nova-lite-v1": 15.0,
+        "mistralai/mistral-small-3.1-24b-instruct": 16.666666666666668,
+        "deepseek/deepseek-chat": 15.0,
+        "cohere/command-r-08-2024": 14.0,
+        "x-ai/grok-4.3": 12.333333333333334
+      },
+      "MSW_within_model": 10.518518518518517,
+      "MSB_between_model": 17.787037037037035,
+      "F_stat": 1.6910211267605624,
+      "p_value": 0.16871718071846453,
+      "bias_corrected_between_model_variance": 2.422839506172839,
+      "significant_at_0.10": false
+    },
+    "Grid connection capacity": {
+      "overall_mean": 15.925925925925926,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 26.666666666666668,
+        "openai/gpt-4o-mini": 11.666666666666666,
+        "anthropic/claude-haiku-4.5": 19.0,
+        "meta-llama/llama-3.3-70b-instruct": 6.666666666666667,
+        "amazon/nova-lite-v1": 10.0,
+        "mistralai/mistral-small-3.1-24b-instruct": 18.333333333333332,
+        "deepseek/deepseek-chat": 16.666666666666668,
+        "cohere/command-r-08-2024": 10.0,
+        "x-ai/grok-4.3": 24.333333333333332
+      },
+      "MSW_within_model": 30.666666666666668,
+      "MSB_between_model": 140.9814814814815,
+      "F_stat": 4.597222222222218,
+      "p_value": 0.0034514084338296493,
+      "bias_corrected_between_model_variance": 36.77160493827161,
+      "significant_at_0.10": true
+    },
+    "Regulatory compliance": {
+      "overall_mean": 14.25925925925926,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 11.666666666666666,
+        "openai/gpt-4o-mini": 10.0,
+        "anthropic/claude-haiku-4.5": 11.666666666666666,
+        "meta-llama/llama-3.3-70b-instruct": 20.0,
+        "amazon/nova-lite-v1": 8.333333333333334,
+        "mistralai/mistral-small-3.1-24b-instruct": 13.333333333333334,
+        "deepseek/deepseek-chat": 10.0,
+        "cohere/command-r-08-2024": 25.0,
+        "x-ai/grok-4.3": 18.333333333333332
+      },
+      "MSW_within_model": 15.740740740740737,
+      "MSB_between_model": 93.98148148148148,
+      "F_stat": 5.970588235294112,
+      "p_value": 0.000814525136534917,
+      "bias_corrected_between_model_variance": 26.08024691358025,
+      "significant_at_0.10": true
+    }
+  }
+}

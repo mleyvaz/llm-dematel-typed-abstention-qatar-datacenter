@@ -1,0 +1,356 @@
+[
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"grid connection availability\", \"renewable energy sourcing\", \"energy efficiency ratio\", \"regulatory compliance cost\", \"land and location\"]}",
+    "criteria": [
+      "grid connection availability",
+      "renewable energy sourcing",
+      "energy efficiency ratio",
+      "regulatory compliance cost",
+      "land and location"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Renewable energy sourcing\", \"Operational energy efficiency\", \"Cooling technology effectiveness\", \"Regulatory compliance\", \"Scalability potential\"]}",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Operational energy efficiency",
+      "Cooling technology effectiveness",
+      "Regulatory compliance",
+      "Scalability potential"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"renewable energy sourcing\", \"grid connection feasibility\", \"cooling efficiency\", \"operational cost\", \"carbon footprint reduction\"]}\n```",
+    "criteria": [
+      "renewable energy sourcing",
+      "grid connection feasibility",
+      "cooling efficiency",
+      "operational cost",
+      "carbon footprint reduction"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Renewable Energy\", \"Energy Efficiency\", \"Cooling Costs\", \"Grid Resilience\", \"Capital Expenditure\"]}",
+    "criteria": [
+      "Renewable Energy",
+      "Energy Efficiency",
+      "Cooling Costs",
+      "Grid Resilience",
+      "Capital Expenditure"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"Renewable Energy\", \"Energy Efficiency\", \"Cooling Systems\", \"Grid Connection\", \"Carbon Footprint\"]}",
+    "criteria": [
+      "Renewable Energy",
+      "Energy Efficiency",
+      "Cooling Systems",
+      "Grid Connection",
+      "Carbon Footprint"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable energy compliance\", \"Grid capacity availability\", \"Cooling efficiency optimization\", \"Operational carbon reduction\", \"Capital investment cost\"]}\n```",
+    "criteria": [
+      "Renewable energy compliance",
+      "Grid capacity availability",
+      "Cooling efficiency optimization",
+      "Operational carbon reduction",
+      "Capital investment cost"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable energy sourcing\", \"Grid connection feasibility\", \"Cooling infrastructure efficiency\", \"Operational cost minimization\", \"Regulatory compliance requirements\"]}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Grid connection feasibility",
+      "Cooling infrastructure efficiency",
+      "Operational cost minimization",
+      "Regulatory compliance requirements"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"grid connection availability\", \"renewable energy sourcing\", \"operational energy efficiency\", \"free air utilization\", \"regulatory compliance cost\"]}",
+    "criteria": [
+      "grid connection availability",
+      "renewable energy sourcing",
+      "operational energy efficiency",
+      "free air utilization",
+      "regulatory compliance cost"
+    ]
+  },
+  {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Renewable Energy\", \"Energy Efficiency\", \"Cooling Systems\", \"Grid Connection\", \"Carbon Footprint\"]}",
+    "criteria": [
+      "Renewable Energy",
+      "Energy Efficiency",
+      "Cooling Systems",
+      "Grid Connection",
+      "Carbon Footprint"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"energy efficiency\", \"renewable sourcing\", \"cooling efficiency\", \"grid independence\", \"cost effectiveness\"]}",
+    "criteria": [
+      "energy efficiency",
+      "renewable sourcing",
+      "cooling efficiency",
+      "grid independence",
+      "cost effectiveness"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy sourcing\",\n    \"Grid connection feasibility\",\n    \"Cooling efficiency costs\",\n    \"Operational carbon footprint\",\n    \"Regulatory compliance risk\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Grid connection feasibility",
+      "Cooling efficiency costs",
+      "Operational carbon footprint",
+      "Regulatory compliance risk"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Renewable energy sourcing\", \"Energy efficiency measures\", \"Free-air cooling potential\", \"Regulatory compliance\", \"Operational cost management\"]}",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Energy efficiency measures",
+      "Free-air cooling potential",
+      "Regulatory compliance",
+      "Operational cost management"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Renewable Sourcing\", \"Cooling Efficiency\", \"Grid Connection\", \"Operational Costs\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Renewable Sourcing",
+      "Cooling Efficiency",
+      "Grid Connection",
+      "Operational Costs"
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"energy efficiency\", \"renewable sourcing\", \"cooling efficiency\", \"grid impact\", \"operational cost\"]}\n```",
+    "criteria": [
+      "energy efficiency",
+      "renewable sourcing",
+      "cooling efficiency",
+      "grid impact",
+      "operational cost"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 2,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy sources\",\n    \"Operational efficiency\",\n    \"Regulatory compliance\",\n    \"Cooling system design\",\n    \"Energy storage capacity\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy sources",
+      "Operational efficiency",
+      "Regulatory compliance",
+      "Cooling system design",
+      "Energy storage capacity"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 0,
+    "raw_response": "{ \"criteria\": [\"renewable energy sourcing\", \"operational energy efficiency\", \"cooling strategy effectiveness\", \"grid independence level\", \"environmental regulatory compliance\"] }",
+    "criteria": [
+      "renewable energy sourcing",
+      "operational energy efficiency",
+      "cooling strategy effectiveness",
+      "grid independence level",
+      "environmental regulatory compliance"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable Energy Sources\", \"Grid Connection Availability\", \"Operational Energy Efficiency\", \"Cooling Infrastructure Effectiveness\", \"Regulatory Compliance and Incentives\"]}\n```",
+    "criteria": [
+      "Renewable Energy Sources",
+      "Grid Connection Availability",
+      "Operational Energy Efficiency",
+      "Cooling Infrastructure Effectiveness",
+      "Regulatory Compliance and Incentives"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Renewable Energy Sources\", \"Energy Efficiency Measures\", \"Cooling Strategies\", \"Grid Connection Alternatives\", \"Sustainable Design Practices\"]}",
+    "criteria": [
+      "Renewable Energy Sources",
+      "Energy Efficiency Measures",
+      "Cooling Strategies",
+      "Grid Connection Alternatives",
+      "Sustainable Design Practices"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 0,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"renewable energy source\",\n    \"free-air cooling\",\n    \"grid connection pause\",\n    \"energy efficiency\",\n    \"operational efficiency\"\n  ]\n}\n```",
+    "criteria": [
+      "renewable energy source",
+      "free-air cooling",
+      "grid connection pause",
+      "energy efficiency",
+      "operational efficiency"
+    ]
+  },
+  {
+    "model": "amazon/nova-lite-v1",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy sourcing\",\n    \"Regulatory compliance\",\n    \"Operational efficiency\",\n    \"Free-air cooling potential\",\n    \"Energy cost management\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Regulatory compliance",
+      "Operational efficiency",
+      "Free-air cooling potential",
+      "Energy cost management"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"criteria\":[\"renewable energy sourcing\",\"energy efficiency\",\"operational cost\",\"cooling technology\",\"regulatory compliance\"]}",
+    "criteria": [
+      "renewable energy sourcing",
+      "energy efficiency",
+      "operational cost",
+      "cooling technology",
+      "regulatory compliance"
+    ]
+  },
+  {
+    "model": "mistralai/mistral-small-3.1-24b-instruct",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Energy Sourcing Strategy\", \"Operational Energy Efficiency\", \"Cooling System Efficiency\", \"Grid Connection Management\", \"Sustainability Certification\"]}\n```",
+    "criteria": [
+      "Energy Sourcing Strategy",
+      "Operational Energy Efficiency",
+      "Cooling System Efficiency",
+      "Grid Connection Management",
+      "Sustainability Certification"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 1,
+    "raw_response": "```json\n{\n    \"criteria\": [\n        \"Renewable Energy Sourcing\",\n        \"Energy Efficiency\",\n        \"Cooling Strategies\",\n        \"Grid Connection\",\n        \"Sustainability Practices\"\n    ]\n}\n```",
+    "criteria": [
+      "Renewable Energy Sourcing",
+      "Energy Efficiency",
+      "Cooling Strategies",
+      "Grid Connection",
+      "Sustainability Practices"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Renewable Energy Sourcing\", \"Grid Capacity Compliance\", \"Energy Efficiency Optimization\", \"Free Cooling Utilization\", \"Operational Cost Control\"]}",
+    "criteria": [
+      "Renewable Energy Sourcing",
+      "Grid Capacity Compliance",
+      "Energy Efficiency Optimization",
+      "Free Cooling Utilization",
+      "Operational Cost Control"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Renewable Energy Sourcing\", \"Grid Connection Access\", \"Cooling Efficiency Optimization\", \"Energy Consumption Reduction\", \"Carbon Footprint Minimization\"]}",
+    "criteria": [
+      "Renewable Energy Sourcing",
+      "Grid Connection Access",
+      "Cooling Efficiency Optimization",
+      "Energy Consumption Reduction",
+      "Carbon Footprint Minimization"
+    ]
+  },
+  {
+    "model": "cohere/command-r-08-2024",
+    "variant": 0,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy sourcing\",\n    \"Energy efficiency\",\n    \"Cooling system design\",\n    \"Grid connection alternatives\",\n    \"Operational cost reduction\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Energy efficiency",
+      "Cooling system design",
+      "Grid connection alternatives",
+      "Operational cost reduction"
+    ]
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"renewable energy sourcing\", \"energy efficiency\", \"cooling system efficiency\", \"grid connection access\", \"carbon emissions reduction\"]}",
+    "criteria": [
+      "renewable energy sourcing",
+      "energy efficiency",
+      "cooling system efficiency",
+      "grid connection access",
+      "carbon emissions reduction"
+    ]
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 0,
+    "raw_response": null,
+    "criteria": null
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 1,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Renewable Energy\", \"Cooling Strategy\", \"Operational Costs\", \"Environmental Impact\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Renewable Energy",
+      "Cooling Strategy",
+      "Operational Costs",
+      "Environmental Impact"
+    ]
+  },
+  {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Energy Efficiency\", \"Renewable Energy\", \"Cooling Strategy\", \"Grid Impact\", \"Operational Costs\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Renewable Energy",
+      "Cooling Strategy",
+      "Grid Impact",
+      "Operational Costs"
+    ]
+  }
+]

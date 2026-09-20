@@ -1,0 +1,491 @@
+{
+  "context": "qatar",
+  "n_models": 10,
+  "n_total_proposals": 150,
+  "n_clusters": 36,
+  "clusters": [
+    {
+      "n_distinct_models": 10,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 23,
+      "example_phrases": [
+        "climatic cooling efficiency",
+        "cooling energy efficiency",
+        "cooling system efficiency",
+        "energy efficiency",
+        "energy efficiency strategies",
+        "water cooling efficiency"
+      ],
+      "representative_label": "energy efficiency"
+    },
+    {
+      "n_distinct_models": 10,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 26,
+      "example_phrases": [
+        "renewable energy",
+        "renewable energy integration",
+        "renewable integration"
+      ],
+      "representative_label": "renewable energy integration"
+    },
+    {
+      "n_distinct_models": 9,
+      "models": [
+        "amazon/nova-lite-v1",
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 15,
+      "example_phrases": [
+        "water conservation",
+        "water conservation efficiency",
+        "water conservation methods"
+      ],
+      "representative_label": "water conservation"
+    },
+    {
+      "n_distinct_models": 5,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 9,
+      "example_phrases": [
+        "operational cost",
+        "operational cost reduction"
+      ],
+      "representative_label": "operational cost reduction"
+    },
+    {
+      "n_distinct_models": 5,
+      "models": [
+        "amazon/nova-lite-v1",
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 7,
+      "example_phrases": [
+        "operational reliability",
+        "operational reliability assurance"
+      ],
+      "representative_label": "operational reliability"
+    },
+    {
+      "n_distinct_models": 4,
+      "models": [
+        "amazon/nova-lite-v1",
+        "deepseek/deepseek-chat",
+        "openai/gpt-4o-mini",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 7,
+      "example_phrases": [
+        "market scalability",
+        "operational scalability",
+        "scalability",
+        "scalability and flexibility",
+        "scalability for growth"
+      ],
+      "representative_label": "scalability"
+    },
+    {
+      "n_distinct_models": 4,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 5,
+      "example_phrases": [
+        "cooling efficiency optimization",
+        "cost optimization",
+        "energy consumption optimization",
+        "energy efficiency optimization"
+      ],
+      "representative_label": "energy efficiency optimization"
+    },
+    {
+      "n_distinct_models": 4,
+      "models": [
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct"
+      ],
+      "n_mentions": 5,
+      "example_phrases": [
+        "market growth",
+        "market growth adaptability"
+      ],
+      "representative_label": "market growth"
+    },
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "amazon/nova-lite-v1",
+        "anthropic/claude-haiku-4.5",
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 4,
+      "example_phrases": [
+        "operational cost management",
+        "water management"
+      ],
+      "representative_label": "operational cost management"
+    },
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "cohere/command-r-08-2024",
+        "deepseek/deepseek-chat",
+        "qwen/qwen-2.5-72b-instruct"
+      ],
+      "n_mentions": 5,
+      "example_phrases": [
+        "operational resilience"
+      ],
+      "representative_label": "operational resilience"
+    },
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 5,
+      "example_phrases": [
+        "water usage",
+        "water usage efficiency",
+        "water usage minimization"
+      ],
+      "representative_label": "water usage efficiency"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "deepseek/deepseek-chat",
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "water scarcity",
+        "water scarcity mitigation"
+      ],
+      "representative_label": "water scarcity mitigation"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 3,
+      "example_phrases": [
+        "water consumption reduction"
+      ],
+      "representative_label": "water consumption reduction"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "meta-llama/llama-3.3-70b-instruct",
+        "mistralai/mistral-small-3.1-24b-instruct"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "cooling systems",
+        "cooling systems optimization"
+      ],
+      "representative_label": "cooling systems optimization"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "amazon/nova-lite-v1",
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "water efficiency",
+        "water efficiency measures"
+      ],
+      "representative_label": "water efficiency"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "mistralai/mistral-small-3.1-24b-instruct",
+        "qwen/qwen-2.5-72b-instruct"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "cooling solutions",
+        "infrastructure cooling solutions"
+      ],
+      "representative_label": "cooling solutions"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "amazon/nova-lite-v1",
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "renewable energy sources"
+      ],
+      "representative_label": "renewable energy sources"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "amazon/nova-lite-v1",
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "operational costs"
+      ],
+      "representative_label": "operational costs"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "qwen/qwen-2.5-72b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "cost effectiveness"
+      ],
+      "representative_label": "cost effectiveness"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "meta-llama/llama-3.3-70b-instruct",
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "renewable capacity",
+        "scalability capacity planning"
+      ],
+      "representative_label": "renewable capacity"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "capital investment cost"
+      ],
+      "representative_label": "capital investment cost"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "regulatory compliance",
+        "regulatory compliance standards"
+      ],
+      "representative_label": "regulatory compliance standards"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "scalable infrastructure capacity"
+      ],
+      "representative_label": "scalable infrastructure capacity"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "capital expenditure"
+      ],
+      "representative_label": "capital expenditure"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "cooling system performance"
+      ],
+      "representative_label": "cooling system performance"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "meta-llama/llama-3.3-70b-instruct"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "carbon footprint"
+      ],
+      "representative_label": "carbon footprint"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "renewable energy utilization"
+      ],
+      "representative_label": "renewable energy utilization"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling technology innovation"
+      ],
+      "representative_label": "cooling technology innovation"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "grid reliability compliance"
+      ],
+      "representative_label": "grid reliability compliance"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "thermal management optimization"
+      ],
+      "representative_label": "thermal management optimization"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "amazon/nova-lite-v1"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "environmental impact assessment"
+      ],
+      "representative_label": "environmental impact assessment"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "amazon/nova-lite-v1"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling system design"
+      ],
+      "representative_label": "cooling system design"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "climate adaptation",
+        "climate control"
+      ],
+      "representative_label": "climate adaptation"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "mistralai/mistral-small-3.1-24b-instruct"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "sustainability certification"
+      ],
+      "representative_label": "sustainability certification"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "cohere/command-r-08-2024"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "sustainable cooling"
+      ],
+      "representative_label": "sustainable cooling"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "x-ai/grok-4.3"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "power infrastructure reliability"
+      ],
+      "representative_label": "power infrastructure reliability"
+    }
+  ]
+}
