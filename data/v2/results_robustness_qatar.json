@@ -1,0 +1,144 @@
+{
+  "context": "qatar",
+  "imputation_sensitivity": {
+    "zero_impute_netR": {
+      "PUE": -0.35354954391236726,
+      "REN": -0.17527399366902774,
+      "COOL": -0.9344542096618724,
+      "CAPEX": -0.6430413646648128,
+      "REG": 0.6028752631135719,
+      "WATER": 0.6403388714554468,
+      "GRID": 0.863104977339062
+    },
+    "rowmean_impute_netR": {
+      "PUE": 0.22662554592383888,
+      "REN": -0.1318651190525042,
+      "COOL": -0.7211904781723462,
+      "CAPEX": -0.3377622337692161,
+      "REG": 0.3453185347394747,
+      "WATER": 0.634487392075453,
+      "GRID": -0.015613641744701923
+    }
+  },
+  "bootstrap_netR_gated": {
+    "PUE": {
+      "mean": -0.36457275049349863,
+      "min": -0.5357047683677041,
+      "max": -0.1434521670208051,
+      "n_enumerated": 27
+    },
+    "REN": {
+      "mean": -0.17683168117608833,
+      "min": -0.2682176851712115,
+      "max": -0.12086289216282031,
+      "n_enumerated": 27
+    },
+    "COOL": {
+      "mean": -0.9578611750038128,
+      "min": -1.511216628606428,
+      "max": -0.7166471233089307,
+      "n_enumerated": 27
+    },
+    "CAPEX": {
+      "mean": -0.6458364554526201,
+      "min": -0.7590028276894829,
+      "max": -0.5270501774313368,
+      "n_enumerated": 27
+    },
+    "REG": {
+      "mean": 0.6191164949353635,
+      "min": 0.2912398138421872,
+      "max": 0.8760838687973753,
+      "n_enumerated": 27
+    },
+    "WATER": {
+      "mean": 0.6447495103238344,
+      "min": 0.585854911419075,
+      "max": 0.7191896357965282,
+      "n_enumerated": 27
+    },
+    "GRID": {
+      "mean": 0.8812360568668219,
+      "min": 0.5730131985717162,
+      "max": 1.421972273261935,
+      "n_enumerated": 27
+    }
+  },
+  "threshold_sensitivity": {
+    "1": {
+      "counts": {
+        "COHERENT": 4,
+        "CONFLICTING": 38,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": [
+        "PUE->REN",
+        "PUE->COOL",
+        "PUE->CAPEX",
+        "PUE->REG",
+        "PUE->WATER",
+        "PUE->GRID",
+        "REN->PUE",
+        "REN->COOL",
+        "REN->CAPEX",
+        "REN->REG",
+        "REN->WATER",
+        "REN->GRID",
+        "COOL->PUE",
+        "COOL->REN",
+        "COOL->REG",
+        "COOL->WATER",
+        "COOL->GRID",
+        "CAPEX->PUE",
+        "CAPEX->REN",
+        "CAPEX->COOL",
+        "CAPEX->REG",
+        "CAPEX->WATER",
+        "CAPEX->GRID",
+        "REG->REN",
+        "REG->COOL",
+        "REG->CAPEX",
+        "REG->WATER",
+        "REG->GRID",
+        "WATER->PUE",
+        "WATER->REN",
+        "WATER->CAPEX",
+        "WATER->REG",
+        "WATER->GRID",
+        "GRID->PUE",
+        "GRID->REN",
+        "GRID->COOL",
+        "GRID->REG",
+        "GRID->WATER"
+      ]
+    },
+    "2": {
+      "counts": {
+        "COHERENT": 34,
+        "CONFLICTING": 8,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": [
+        "PUE->WATER",
+        "REN->REG",
+        "COOL->REN",
+        "COOL->WATER",
+        "COOL->GRID",
+        "CAPEX->GRID",
+        "WATER->GRID",
+        "GRID->COOL"
+      ]
+    },
+    "3": {
+      "counts": {
+        "COHERENT": 42,
+        "CONFLICTING": 0,
+        "OPPOSED": 0,
+        "INSUFFICIENT": 0
+      },
+      "withheld": []
+    }
+  }
+}

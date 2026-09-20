@@ -1,0 +1,455 @@
+{
+  "context": "ireland",
+  "criteria": [
+    "PUE",
+    "REN",
+    "COOL",
+    "CAPEX",
+    "REG",
+    "WATER",
+    "GRID"
+  ],
+  "type_counts": {
+    "COHERENT": 30,
+    "CONFLICTING": 12,
+    "OPPOSED": 0,
+    "INSUFFICIENT": 0
+  },
+  "n_pairs": 42,
+  "withheld_pairs": [
+    "PUE->COOL",
+    "PUE->REG",
+    "PUE->GRID",
+    "REN->WATER",
+    "CAPEX->PUE",
+    "CAPEX->REN",
+    "CAPEX->GRID",
+    "REG->WATER",
+    "WATER->REN",
+    "WATER->COOL",
+    "WATER->CAPEX",
+    "WATER->REG"
+  ],
+  "D_gated": [
+    [
+      0.0,
+      1.7777777777777777,
+      0.0,
+      2.888888888888889,
+      0.0,
+      2.111111111111111,
+      0.0
+    ],
+    [
+      1.6666666666666667,
+      0.0,
+      1.6666666666666667,
+      3.222222222222222,
+      3.1111111111111107,
+      0.0,
+      2.888888888888889
+    ],
+    [
+      3.3333333333333335,
+      1.3333333333333333,
+      0.0,
+      2.8888888888888893,
+      1.4444444444444446,
+      2.777777777777778,
+      2.4444444444444446
+    ],
+    [
+      0.0,
+      0.0,
+      3.1111111111111107,
+      0.0,
+      2.3333333333333335,
+      2.4444444444444446,
+      0.0
+    ],
+    [
+      2.555555555555556,
+      3.4444444444444446,
+      2.3333333333333335,
+      3.3333333333333335,
+      0.0,
+      0.0,
+      3.0
+    ],
+    [
+      1.5555555555555554,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.222222222222222
+    ],
+    [
+      2.111111111111111,
+      3.222222222222222,
+      2.111111111111111,
+      3.5555555555555554,
+      2.888888888888889,
+      1.3333333333333333,
+      0.0
+    ]
+  ],
+  "D_naive": [
+    [
+      0.0,
+      1.7777777777777777,
+      2.6666666666666665,
+      2.888888888888889,
+      2.5555555555555554,
+      2.111111111111111,
+      2.888888888888889
+    ],
+    [
+      1.6666666666666667,
+      0.0,
+      1.6666666666666667,
+      3.2222222222222223,
+      3.111111111111111,
+      1.6666666666666667,
+      2.888888888888889
+    ],
+    [
+      3.3333333333333335,
+      1.3333333333333333,
+      0.0,
+      2.888888888888889,
+      1.4444444444444444,
+      2.7777777777777777,
+      2.4444444444444446
+    ],
+    [
+      3.111111111111111,
+      3.2222222222222223,
+      3.111111111111111,
+      0.0,
+      2.3333333333333335,
+      2.4444444444444446,
+      2.888888888888889
+    ],
+    [
+      2.5555555555555554,
+      3.4444444444444446,
+      2.3333333333333335,
+      3.3333333333333335,
+      0.0,
+      2.0,
+      3.0
+    ],
+    [
+      1.5555555555555556,
+      1.5555555555555556,
+      2.5555555555555554,
+      2.0,
+      2.2222222222222223,
+      0.0,
+      1.2222222222222223
+    ],
+    [
+      2.111111111111111,
+      3.2222222222222223,
+      2.111111111111111,
+      3.5555555555555554,
+      2.888888888888889,
+      1.3333333333333333,
+      0.0
+    ]
+  ],
+  "prominence_gated": [
+    2.97619305846636,
+    4.211511318593816,
+    4.148471325283558,
+    4.227888328200212,
+    4.631378177352578,
+    2.1756320732576464,
+    4.452634868208448
+  ],
+  "net_gated": [
+    -0.9089949878593309,
+    0.7782907206274847,
+    0.5591918538939655,
+    -1.3381804311514167,
+    0.9795933758986193,
+    -1.1945749076789263,
+    1.1246743762696034
+  ],
+  "prominence_naive": [
+    9.876188233699342,
+    9.828173296960909,
+    9.61307412704609,
+    11.486368178234663,
+    10.434475018867204,
+    8.043654402588796,
+    10.341110139313534
+  ],
+  "net_naive": [
+    0.14942465335739374,
+    -0.07928442966054572,
+    -0.11335078146743793,
+    -0.25448763928967466,
+    0.6637386293813021,
+    -0.3827198131662253,
+    0.016679380845188163
+  ],
+  "dispersion_mean": 0.888888888888889,
+  "dispersion_max": 2.0,
+  "cells_detail": {
+    "PUE->REN": {
+      "type": "COHERENT",
+      "gated_value": 1.7777777777777777,
+      "naive_value": 1.778,
+      "dispersion": 1.667
+    },
+    "PUE->COOL": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.667,
+      "dispersion": 0.667
+    },
+    "PUE->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 2.888888888888889,
+      "naive_value": 2.889,
+      "dispersion": 0.333
+    },
+    "PUE->REG": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.556,
+      "dispersion": 0.333
+    },
+    "PUE->WATER": {
+      "type": "COHERENT",
+      "gated_value": 2.111111111111111,
+      "naive_value": 2.111,
+      "dispersion": 0.333
+    },
+    "PUE->GRID": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.889,
+      "dispersion": 0.333
+    },
+    "REN->PUE": {
+      "type": "COHERENT",
+      "gated_value": 1.6666666666666667,
+      "naive_value": 1.667,
+      "dispersion": 1.667
+    },
+    "REN->COOL": {
+      "type": "COHERENT",
+      "gated_value": 1.6666666666666667,
+      "naive_value": 1.667,
+      "dispersion": 1.0
+    },
+    "REN->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 3.222222222222222,
+      "naive_value": 3.222,
+      "dispersion": 0.667
+    },
+    "REN->REG": {
+      "type": "COHERENT",
+      "gated_value": 3.1111111111111107,
+      "naive_value": 3.111,
+      "dispersion": 1.0
+    },
+    "REN->WATER": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 1.667,
+      "dispersion": 1.0
+    },
+    "REN->GRID": {
+      "type": "COHERENT",
+      "gated_value": 2.888888888888889,
+      "naive_value": 2.889,
+      "dispersion": 1.333
+    },
+    "COOL->PUE": {
+      "type": "COHERENT",
+      "gated_value": 3.3333333333333335,
+      "naive_value": 3.333,
+      "dispersion": 1.0
+    },
+    "COOL->REN": {
+      "type": "COHERENT",
+      "gated_value": 1.3333333333333333,
+      "naive_value": 1.333,
+      "dispersion": 0.667
+    },
+    "COOL->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 2.8888888888888893,
+      "naive_value": 2.889,
+      "dispersion": 1.0
+    },
+    "COOL->REG": {
+      "type": "COHERENT",
+      "gated_value": 1.4444444444444446,
+      "naive_value": 1.444,
+      "dispersion": 0.667
+    },
+    "COOL->WATER": {
+      "type": "COHERENT",
+      "gated_value": 2.777777777777778,
+      "naive_value": 2.778,
+      "dispersion": 2.0
+    },
+    "COOL->GRID": {
+      "type": "COHERENT",
+      "gated_value": 2.4444444444444446,
+      "naive_value": 2.444,
+      "dispersion": 1.667
+    },
+    "CAPEX->PUE": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 3.111,
+      "dispersion": 0.333
+    },
+    "CAPEX->REN": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 3.222,
+      "dispersion": 0.667
+    },
+    "CAPEX->COOL": {
+      "type": "COHERENT",
+      "gated_value": 3.1111111111111107,
+      "naive_value": 3.111,
+      "dispersion": 1.0
+    },
+    "CAPEX->REG": {
+      "type": "COHERENT",
+      "gated_value": 2.3333333333333335,
+      "naive_value": 2.333,
+      "dispersion": 0.667
+    },
+    "CAPEX->WATER": {
+      "type": "COHERENT",
+      "gated_value": 2.4444444444444446,
+      "naive_value": 2.444,
+      "dispersion": 0.333
+    },
+    "CAPEX->GRID": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.889,
+      "dispersion": 0.667
+    },
+    "REG->PUE": {
+      "type": "COHERENT",
+      "gated_value": 2.555555555555556,
+      "naive_value": 2.556,
+      "dispersion": 0.667
+    },
+    "REG->REN": {
+      "type": "COHERENT",
+      "gated_value": 3.4444444444444446,
+      "naive_value": 3.444,
+      "dispersion": 1.0
+    },
+    "REG->COOL": {
+      "type": "COHERENT",
+      "gated_value": 2.3333333333333335,
+      "naive_value": 2.333,
+      "dispersion": 1.0
+    },
+    "REG->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 3.3333333333333335,
+      "naive_value": 3.333,
+      "dispersion": 1.0
+    },
+    "REG->WATER": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.0,
+      "dispersion": 1.0
+    },
+    "REG->GRID": {
+      "type": "COHERENT",
+      "gated_value": 3.0,
+      "naive_value": 3.0,
+      "dispersion": 0.667
+    },
+    "WATER->PUE": {
+      "type": "COHERENT",
+      "gated_value": 1.5555555555555554,
+      "naive_value": 1.556,
+      "dispersion": 0.667
+    },
+    "WATER->REN": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 1.556,
+      "dispersion": 1.333
+    },
+    "WATER->COOL": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.556,
+      "dispersion": 0.667
+    },
+    "WATER->CAPEX": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.0,
+      "dispersion": 0.667
+    },
+    "WATER->REG": {
+      "type": "CONFLICTING",
+      "gated_value": null,
+      "naive_value": 2.222,
+      "dispersion": 0.333
+    },
+    "WATER->GRID": {
+      "type": "COHERENT",
+      "gated_value": 1.222222222222222,
+      "naive_value": 1.222,
+      "dispersion": 0.333
+    },
+    "GRID->PUE": {
+      "type": "COHERENT",
+      "gated_value": 2.111111111111111,
+      "naive_value": 2.111,
+      "dispersion": 1.333
+    },
+    "GRID->REN": {
+      "type": "COHERENT",
+      "gated_value": 3.222222222222222,
+      "naive_value": 3.222,
+      "dispersion": 1.333
+    },
+    "GRID->COOL": {
+      "type": "COHERENT",
+      "gated_value": 2.111111111111111,
+      "naive_value": 2.111,
+      "dispersion": 1.0
+    },
+    "GRID->CAPEX": {
+      "type": "COHERENT",
+      "gated_value": 3.5555555555555554,
+      "naive_value": 3.556,
+      "dispersion": 1.0
+    },
+    "GRID->REG": {
+      "type": "COHERENT",
+      "gated_value": 2.888888888888889,
+      "naive_value": 2.889,
+      "dispersion": 1.333
+    },
+    "GRID->WATER": {
+      "type": "COHERENT",
+      "gated_value": 1.3333333333333333,
+      "naive_value": 1.333,
+      "dispersion": 1.0
+    }
+  }
+}
