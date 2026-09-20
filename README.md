@@ -1,20 +1,34 @@
-# LLM-Elicited DEMATEL with Typed Abstention — Data Center Sustainability Pilot
+# LLM-Elicited MCDM Reliability — Data Center Sustainability Pilots
 
-Code, raw model responses, and computed results for a pilot that elicits DEMATEL
-direct-influence judgments among data-center sustainability criteria from three LLMs,
-gates them through a typed-abstention rule before building the causal map, and tests
-the robustness of the resulting comparisons to edge imputation, model resampling, and
-internal-conflict threshold choice.
+Code, raw model responses, and computed results for two related pilots that test
+where LLM input to multicriteria decision-making (MCDM) is reliable, at two different
+pipeline stages, for a data center sustainability decision in two real markets (Qatar,
+Ireland).
 
-Two independent studies are included:
+Three studies are included:
 
-- **v1** (`code/*.py`, `data/*.json`, `figures/figure1_causeeffect.png`): 5 criteria
-  (PUE, REN, COOL, CAPEX, REG), k=2 paraphrases, one context (Qatar), 120 calls.
+- **v1** (`code/*.py`, `data/*.json`, `figures/figure1_causeeffect.png`): the original
+  DEMATEL pilot — 5 criteria (PUE, REN, COOL, CAPEX, REG), k=2 paraphrases, one context
+  (Qatar), 120 calls.
 - **v2** (`code/v2/`, `data/v2/`, `figures/figure_causeeffect_{qatar,ireland}.png`):
-  7 criteria (v1's five plus water-scarcity risk (WATER) and grid connection/power-
-  supply risk (GRID)), k=3 paraphrases, two independent real decision contexts
-  (Qatar, Ireland), 756 calls total (378 per context). v2 supersedes v1 as the
-  manuscript's primary empirical study; v1 is kept for provenance/comparison.
+  the DEMATEL pilot extended to 7 criteria (v1's five plus water-scarcity risk (WATER)
+  and grid connection/power-supply risk (GRID)), k=3 paraphrases, two independent real
+  decision contexts (Qatar, Ireland), 756 calls total. Tests a typed-abstention gate
+  that flags pairwise causal judgments where a model contradicts itself across
+  paraphrases. **Result: two independent checks (random-edge-withholding null control,
+  leave-one-edge-out influence ranking) found the gate's flagged edges indistinguishable
+  from, or slightly less influential than, arbitrary edges of the same count — the gate
+  does not identify structurally special edges on this data.**
+- **v3** (`code/v3/`, `data/v3/`): a reframing after v2's null result. Instead of
+  testing reliability at the pairwise-judgment stage, tests it one stage earlier, at
+  problem structuring itself: three LLMs independently propose criteria (no fixed
+  list) for the same two markets, cross-model consensus on the proposals is scored,
+  and importance weights for the consensus criteria are elicited and decomposed into
+  within-model noise vs. cross-model disagreement. **Result: most weights show
+  within-model noise as the dominant source of spread (models substantively agree);
+  a minority (grid connection capacity in Ireland, most starkly) show genuine
+  cross-model disagreement — a usable, threshold-free reliability signal that v2's
+  gate did not provide.** v3 is the current manuscript's primary contribution.
 
 ## Contents
 
@@ -42,6 +56,32 @@ Two independent studies are included:
   `data/v2/results_robustness_{qatar,ireland}.json`.
 - `code/v2/make_causeeffect_figure_v2.py` — naive-vs-gated cause-effect scatter plot,
   one per context.
+- `code/v2/permutation_null_control.py` — random-edge-withholding null control: 5,000
+  Monte Carlo draws of random edge subsets the same size as the gate's withheld set,
+  per context. Produces `data/v2/results_permutation_{qatar,ireland}.json`.
+- `code/v2/leave_one_edge_out.py` — knocks out each of the 42 edges individually and
+  ranks them by influence on the net cause/effect vector; compares the gate's flagged
+  edges against all others with a Mann-Whitney U test. Produces
+  `data/v2/results_leaveoneedgeout_{qatar,ireland}.json`.
+
+### v3 (criteria + weight elicitation, problem-structuring reliability)
+
+- `code/v3/run_criteria_elicitation.py` — asks the same three LLMs, 3 paraphrases
+  each, to independently propose the top-5 decision criteria for each context with no
+  candidate list supplied (18 calls). Produces `data/v3/raw_criteria_{qatar,ireland}.json`.
+- `code/v3/analyze_criteria_consensus.py` — TF-IDF/agglomerative clustering of the 45
+  proposed phrases per context, scored by the number of distinct models (0–3)
+  proposing a concept. Produces `data/v3/results_criteria_consensus_{qatar,ireland}.json`.
+  Note: this lexical clustering under-merges true synonyms (e.g. "cooling efficiency
+  optimization" / "free air cooling" / "cooling technology"); the manuscript's Table 1a/1b
+  reports hand-reconciled consensus counts checked against the raw responses, not this
+  script's raw cluster output directly — both are in the repo for comparison.
+- `code/v3/run_weight_elicitation.py` — for the hand-reconciled ≥2-of-3-model consensus
+  criteria, asks the same three LLMs (3 paraphrases each) to distribute 100 importance
+  points across them (18 calls). Produces `data/v3/raw_weights_{qatar,ireland}.json`.
+- `code/v3/analyze_weights.py` — decomposes each criterion's weight variance into
+  within-model (across a model's own 3 paraphrases) and cross-model (across the 3
+  models' means) components. Produces `data/v3/results_weights_{qatar,ireland}.json`.
 
 ## Reproducing
 
@@ -57,6 +97,18 @@ python code/v2/robustness_checks_v2.py qatar
 python code/v2/robustness_checks_v2.py ireland
 python code/v2/make_causeeffect_figure_v2.py qatar
 python code/v2/make_causeeffect_figure_v2.py ireland
+python code/v2/permutation_null_control.py qatar
+python code/v2/permutation_null_control.py ireland
+python code/v2/leave_one_edge_out.py qatar
+python code/v2/leave_one_edge_out.py ireland
+
+# v3 (current primary manuscript)
+python code/v3/run_criteria_elicitation.py       # optional: redraws raw proposals
+python code/v3/analyze_criteria_consensus.py qatar
+python code/v3/analyze_criteria_consensus.py ireland
+python code/v3/run_weight_elicitation.py         # optional: redraws raw weights
+python code/v3/analyze_weights.py qatar
+python code/v3/analyze_weights.py ireland
 ```
 
 All raw response files are committed, so the `analyze`/`robustness`/`figure` scripts

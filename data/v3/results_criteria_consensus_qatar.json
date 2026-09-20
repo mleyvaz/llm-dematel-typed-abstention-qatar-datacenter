@@ -1,0 +1,244 @@
+{
+  "context": "qatar",
+  "n_total_proposals": 45,
+  "n_clusters": 20,
+  "clusters": [
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 7,
+      "example_phrases": [
+        "energy efficiency",
+        "energy efficiency optimization",
+        "water and energy efficiency"
+      ],
+      "representative_label": "energy efficiency"
+    },
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 8,
+      "example_phrases": [
+        "renewable energy integration"
+      ],
+      "representative_label": "renewable energy integration"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 3,
+      "example_phrases": [
+        "water conservation"
+      ],
+      "representative_label": "water conservation"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 3,
+      "example_phrases": [
+        "operational scalability",
+        "scalability and reliability"
+      ],
+      "representative_label": "scalability and reliability"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "water cooling efficiency",
+        "water efficiency and cooling"
+      ],
+      "representative_label": "water efficiency and cooling"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 4,
+      "example_phrases": [
+        "operational cost",
+        "operational cost management",
+        "operational cost reduction"
+      ],
+      "representative_label": "operational cost management"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "capital expenditure",
+        "capital expenditure and cost"
+      ],
+      "representative_label": "capital expenditure"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 3,
+      "example_phrases": [
+        "regulatory and compliance alignment",
+        "regulatory and market compliance",
+        "regulatory compliance"
+      ],
+      "representative_label": "regulatory and compliance alignment"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "operational reliability and uptime"
+      ],
+      "representative_label": "operational reliability and uptime"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "water consumption reduction"
+      ],
+      "representative_label": "water consumption reduction"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling system optimization"
+      ],
+      "representative_label": "cooling system optimization"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "capital and operating costs"
+      ],
+      "representative_label": "capital and operating costs"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling system performance"
+      ],
+      "representative_label": "cooling system performance"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "grid infrastructure capacity"
+      ],
+      "representative_label": "grid infrastructure capacity"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "thermal management systems"
+      ],
+      "representative_label": "thermal management systems"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "water management"
+      ],
+      "representative_label": "water management"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling technology"
+      ],
+      "representative_label": "cooling technology"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "scalability and flexibility"
+      ],
+      "representative_label": "scalability and flexibility"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "operational resilience"
+      ],
+      "representative_label": "operational resilience"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cost-effectiveness"
+      ],
+      "representative_label": "cost-effectiveness"
+    }
+  ]
+}

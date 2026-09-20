@@ -1,0 +1,129 @@
+{
+  "criteria": [
+    "Renewable energy sourcing",
+    "Cooling technology",
+    "Energy efficiency",
+    "Grid connection capacity",
+    "Regulatory compliance",
+    "Operational cost"
+  ],
+  "responses": [
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy sourcing\": 28, \"Cooling technology\": 18, \"Energy efficiency\": 22, \"Grid connection capacity\": 12, \"Regulatory compliance\": 15, \"Operational cost\": 5}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 28.0,
+        "Cooling technology": 18.0,
+        "Energy efficiency": 22.0,
+        "Grid connection capacity": 12.0,
+        "Regulatory compliance": 15.0,
+        "Operational cost": 5.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 2,
+      "raw_response": "{\"weights\": {\"Renewable energy sourcing\": 30, \"Cooling technology\": 10, \"Energy efficiency\": 15, \"Grid connection capacity\": 25, \"Regulatory compliance\": 15, \"Operational cost\": 5}}",
+      "weights": {
+        "Renewable energy sourcing": 30.0,
+        "Cooling technology": 10.0,
+        "Energy efficiency": 15.0,
+        "Grid connection capacity": 25.0,
+        "Regulatory compliance": 15.0,
+        "Operational cost": 5.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy sourcing\": 25, \"Cooling technology\": 10, \"Energy efficiency\": 15, \"Grid connection capacity\": 30, \"Regulatory compliance\": 10, \"Operational cost\": 10}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 25.0,
+        "Cooling technology": 10.0,
+        "Energy efficiency": 15.0,
+        "Grid connection capacity": 30.0,
+        "Regulatory compliance": 10.0,
+        "Operational cost": 10.0
+      }
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "variant": 0,
+      "raw_response": "{\"weights\": {\"Renewable energy sourcing\": 25, \"Cooling technology\": 15, \"Energy efficiency\": 15, \"Grid connection capacity\": 20, \"Regulatory compliance\": 15, \"Operational cost\": 10}}",
+      "weights": {
+        "Renewable energy sourcing": 25.0,
+        "Cooling technology": 15.0,
+        "Energy efficiency": 15.0,
+        "Grid connection capacity": 20.0,
+        "Regulatory compliance": 15.0,
+        "Operational cost": 10.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\": {\"Renewable energy sourcing\": 28, \"Cooling technology\": 18, \"Energy efficiency\": 22, \"Grid connection capacity\": 12, \"Regulatory compliance\": 15, \"Operational cost\": 5}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 28.0,
+        "Cooling technology": 18.0,
+        "Energy efficiency": 22.0,
+        "Grid connection capacity": 12.0,
+        "Regulatory compliance": 15.0,
+        "Operational cost": 5.0
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4.5",
+      "variant": 1,
+      "raw_response": "```json\n{\n  \"weights\": {\n    \"Renewable energy sourcing\": 28,\n    \"Cooling technology\": 18,\n    \"Energy efficiency\": 16,\n    \"Grid connection capacity\": 22,\n    \"Regulatory compliance\": 10,\n    \"Operational cost\": 6\n  }\n}\n```",
+      "weights": {
+        "Renewable energy sourcing": 28.0,
+        "Cooling technology": 18.0,
+        "Energy efficiency": 16.0,
+        "Grid connection capacity": 22.0,
+        "Regulatory compliance": 10.0,
+        "Operational cost": 6.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 2,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy sourcing\":30,\"Cooling technology\":20,\"Energy efficiency\":20,\"Grid connection capacity\":15,\"Regulatory compliance\":10,\"Operational cost\":5}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 30.0,
+        "Cooling technology": 20.0,
+        "Energy efficiency": 20.0,
+        "Grid connection capacity": 15.0,
+        "Regulatory compliance": 10.0,
+        "Operational cost": 5.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 1,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy sourcing\":30,\"Cooling technology\":20,\"Energy efficiency\":15,\"Grid connection capacity\":10,\"Regulatory compliance\":15,\"Operational cost\":10}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 30.0,
+        "Cooling technology": 20.0,
+        "Energy efficiency": 15.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 15.0,
+        "Operational cost": 10.0
+      }
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "variant": 0,
+      "raw_response": "```json\n{\"weights\":{\"Renewable energy sourcing\":30,\"Cooling technology\":20,\"Energy efficiency\":25,\"Grid connection capacity\":10,\"Regulatory compliance\":10,\"Operational cost\":5}}\n```",
+      "weights": {
+        "Renewable energy sourcing": 30.0,
+        "Cooling technology": 20.0,
+        "Energy efficiency": 25.0,
+        "Grid connection capacity": 10.0,
+        "Regulatory compliance": 10.0,
+        "Operational cost": 5.0
+      }
+    }
+  ]
+}

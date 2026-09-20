@@ -1,0 +1,72 @@
+{
+  "context": "qatar",
+  "criteria": [
+    "Energy efficiency",
+    "Water usage / cooling",
+    "Renewable energy sourcing",
+    "Capital and operating cost",
+    "Scalability and reliability"
+  ],
+  "per_criterion": {
+    "Energy efficiency": {
+      "overall_mean": 26.22222222222222,
+      "overall_std": 1.8121673811444545,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 25.0,
+        "anthropic/claude-haiku-4.5": 27.0,
+        "openai/gpt-4o-mini": 26.666666666666668
+      },
+      "cross_model_variance": 0.7654320987654325,
+      "mean_within_model_variance": 2.5185185185185186,
+      "disagreement_mostly_cross_model": false
+    },
+    "Water usage / cooling": {
+      "overall_mean": 27.0,
+      "overall_std": 2.211083193570267,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 25.0,
+        "anthropic/claude-haiku-4.5": 27.666666666666668,
+        "openai/gpt-4o-mini": 28.333333333333332
+      },
+      "cross_model_variance": 2.074074074074074,
+      "mean_within_model_variance": 2.8148148148148153,
+      "disagreement_mostly_cross_model": false
+    },
+    "Renewable energy sourcing": {
+      "overall_mean": 17.77777777777778,
+      "overall_std": 3.5520816362546177,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "anthropic/claude-haiku-4.5": 20.0,
+        "openai/gpt-4o-mini": 18.333333333333332
+      },
+      "cross_model_variance": 4.320987654320987,
+      "mean_within_model_variance": 8.296296296296298,
+      "disagreement_mostly_cross_model": false
+    },
+    "Capital and operating cost": {
+      "overall_mean": 15.666666666666666,
+      "overall_std": 1.563471919941143,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 15.0,
+        "anthropic/claude-haiku-4.5": 15.333333333333334,
+        "openai/gpt-4o-mini": 16.666666666666668
+      },
+      "cross_model_variance": 0.5185185185185192,
+      "mean_within_model_variance": 1.9259259259259263,
+      "disagreement_mostly_cross_model": false
+    },
+    "Scalability and reliability": {
+      "overall_mean": 13.333333333333334,
+      "overall_std": 5.354126134736337,
+      "model_means": {
+        "google/gemini-3.5-flash-lite": 20.0,
+        "anthropic/claude-haiku-4.5": 10.0,
+        "openai/gpt-4o-mini": 10.0
+      },
+      "cross_model_variance": 22.222222222222218,
+      "mean_within_model_variance": 6.4444444444444455,
+      "disagreement_mostly_cross_model": true
+    }
+  }
+}

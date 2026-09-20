@@ -1,0 +1,85 @@
+{
+  "context": "ireland",
+  "criteria": [
+    "Renewable energy sourcing",
+    "Cooling technology",
+    "Energy efficiency",
+    "Grid connection capacity",
+    "Regulatory compliance",
+    "Operational cost"
+  ],
+  "per_criterion": {
+    "Renewable energy sourcing": {
+      "overall_mean": 28.22222222222222,
+      "overall_std": 1.9309052441091963,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 28.0,
+        "google/gemini-3.5-flash-lite": 26.666666666666668,
+        "openai/gpt-4o-mini": 30.0
+      },
+      "cross_model_variance": 1.876543209876542,
+      "mean_within_model_variance": 1.851851851851852,
+      "disagreement_mostly_cross_model": true
+    },
+    "Cooling technology": {
+      "overall_mean": 16.555555555555557,
+      "overall_std": 3.80383172636082,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 18.0,
+        "google/gemini-3.5-flash-lite": 11.666666666666666,
+        "openai/gpt-4o-mini": 20.0
+      },
+      "cross_model_variance": 12.617283950617285,
+      "mean_within_model_variance": 1.8518518518518514,
+      "disagreement_mostly_cross_model": true
+    },
+    "Energy efficiency": {
+      "overall_mean": 18.333333333333332,
+      "overall_std": 3.711842908553348,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 20.0,
+        "google/gemini-3.5-flash-lite": 15.0,
+        "openai/gpt-4o-mini": 20.0
+      },
+      "cross_model_variance": 5.555555555555556,
+      "mean_within_model_variance": 8.222222222222223,
+      "disagreement_mostly_cross_model": false
+    },
+    "Grid connection capacity": {
+      "overall_mean": 17.333333333333332,
+      "overall_std": 6.815016100086958,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 15.333333333333334,
+        "google/gemini-3.5-flash-lite": 25.0,
+        "openai/gpt-4o-mini": 11.666666666666666
+      },
+      "cross_model_variance": 31.62962962962963,
+      "mean_within_model_variance": 14.814814814814815,
+      "disagreement_mostly_cross_model": true
+    },
+    "Regulatory compliance": {
+      "overall_mean": 12.777777777777779,
+      "overall_std": 2.484519974999766,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 13.333333333333334,
+        "google/gemini-3.5-flash-lite": 13.333333333333334,
+        "openai/gpt-4o-mini": 11.666666666666666
+      },
+      "cross_model_variance": 0.6172839506172848,
+      "mean_within_model_variance": 5.5555555555555545,
+      "disagreement_mostly_cross_model": false
+    },
+    "Operational cost": {
+      "overall_mean": 6.777777777777778,
+      "overall_std": 2.298684540619689,
+      "model_means": {
+        "anthropic/claude-haiku-4.5": 5.333333333333333,
+        "google/gemini-3.5-flash-lite": 8.333333333333334,
+        "openai/gpt-4o-mini": 6.666666666666667
+      },
+      "cross_model_variance": 1.5061728395061735,
+      "mean_within_model_variance": 3.7777777777777772,
+      "disagreement_mostly_cross_model": false
+    }
+  }
+}

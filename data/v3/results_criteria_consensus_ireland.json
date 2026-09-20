@@ -1,0 +1,228 @@
+{
+  "context": "ireland",
+  "n_total_proposals": 45,
+  "n_clusters": 18,
+  "clusters": [
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 9,
+      "example_phrases": [
+        "renewable energy compliance",
+        "renewable energy sourcing"
+      ],
+      "representative_label": "renewable energy sourcing"
+    },
+    {
+      "n_distinct_models": 3,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 6,
+      "example_phrases": [
+        "regulatory compliance",
+        "regulatory compliance adherence",
+        "regulatory compliance requirements",
+        "regulatory compliance timeline"
+      ],
+      "representative_label": "regulatory compliance"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "google/gemini-3.5-flash-lite",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 6,
+      "example_phrases": [
+        "energy efficiency",
+        "energy efficiency ratio",
+        "energy efficiency technologies",
+        "operational efficiency",
+        "operational energy efficiency"
+      ],
+      "representative_label": "energy efficiency"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 4,
+      "example_phrases": [
+        "grid connection availability",
+        "grid connection feasibility"
+      ],
+      "representative_label": "grid connection feasibility"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "cooling efficiency optimization",
+        "energy efficiency optimization"
+      ],
+      "representative_label": "energy efficiency optimization"
+    },
+    {
+      "n_distinct_models": 2,
+      "models": [
+        "anthropic/claude-haiku-4.5",
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 3,
+      "example_phrases": [
+        "operational cost",
+        "operational cost management",
+        "operational cost reduction"
+      ],
+      "representative_label": "operational cost reduction"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling system design"
+      ],
+      "representative_label": "cooling system design"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "site location"
+      ],
+      "representative_label": "site location"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "free air cooling",
+        "free cooling utilization"
+      ],
+      "representative_label": "free cooling utilization"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "grid capacity availability",
+        "grid capacity compliance"
+      ],
+      "representative_label": "grid capacity compliance"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "capital investment cost"
+      ],
+      "representative_label": "capital investment cost"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "carbon emissions reduction"
+      ],
+      "representative_label": "carbon emissions reduction"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 2,
+      "example_phrases": [
+        "carbon footprint minimization",
+        "operational carbon footprint"
+      ],
+      "representative_label": "carbon footprint minimization"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling infrastructure efficiency"
+      ],
+      "representative_label": "cooling infrastructure efficiency"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "anthropic/claude-haiku-4.5"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling efficiency costs"
+      ],
+      "representative_label": "cooling efficiency costs"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling technology"
+      ],
+      "representative_label": "cooling technology"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "google/gemini-3.5-flash-lite"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "sustainability reporting metrics"
+      ],
+      "representative_label": "sustainability reporting metrics"
+    },
+    {
+      "n_distinct_models": 1,
+      "models": [
+        "openai/gpt-4o-mini"
+      ],
+      "n_mentions": 1,
+      "example_phrases": [
+        "cooling methodology"
+      ],
+      "representative_label": "cooling methodology"
+    }
+  ]
+}

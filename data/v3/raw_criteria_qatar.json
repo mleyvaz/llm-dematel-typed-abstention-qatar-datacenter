@@ -1,0 +1,110 @@
+[
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"energy efficiency\", \"water conservation\", \"capital expenditure\", \"regulatory compliance\", \"scalability and reliability\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "capital expenditure",
+      "regulatory compliance",
+      "scalability and reliability"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"Water efficiency and cooling\", \"Renewable energy integration\", \"Operational reliability and uptime\", \"Capital expenditure and cost\", \"Regulatory and market compliance\"]}",
+    "criteria": [
+      "Water efficiency and cooling",
+      "Renewable energy integration",
+      "Operational reliability and uptime",
+      "Capital expenditure and cost",
+      "Regulatory and market compliance"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"energy efficiency\", \"water consumption reduction\", \"renewable energy integration\", \"operational cost management\", \"cooling system optimization\"]}\n```",
+    "criteria": [
+      "energy efficiency",
+      "water consumption reduction",
+      "renewable energy integration",
+      "operational cost management",
+      "cooling system optimization"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Water and energy efficiency\", \"Capital and operating costs\", \"Renewable energy integration\", \"Regulatory and compliance alignment\", \"Scalability and reliability\"]}\n```",
+    "criteria": [
+      "Water and energy efficiency",
+      "Capital and operating costs",
+      "Renewable energy integration",
+      "Regulatory and compliance alignment",
+      "Scalability and reliability"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Energy efficiency optimization\",\n    \"Water consumption reduction\",\n    \"Renewable energy integration\",\n    \"Operational cost management\",\n    \"Cooling system performance\"\n  ]\n}\n```",
+    "criteria": [
+      "Energy efficiency optimization",
+      "Water consumption reduction",
+      "Renewable energy integration",
+      "Operational cost management",
+      "Cooling system performance"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"Water cooling efficiency\", \"Renewable energy integration\", \"Operational cost reduction\", \"Grid infrastructure capacity\", \"Thermal management systems\"]}\n```",
+    "criteria": [
+      "Water cooling efficiency",
+      "Renewable energy integration",
+      "Operational cost reduction",
+      "Grid infrastructure capacity",
+      "Thermal management systems"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 2,
+    "raw_response": "{\"criteria\":[\"Energy Efficiency\",\"Water Management\",\"Renewable Energy Integration\",\"Cooling Technology\",\"Operational Scalability\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Management",
+      "Renewable Energy Integration",
+      "Cooling Technology",
+      "Operational Scalability"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "{\"criteria\":[\"Energy Efficiency\",\"Water Conservation\",\"Renewable Energy Integration\",\"Operational Cost\",\"Scalability and Flexibility\"]}",
+    "criteria": [
+      "Energy Efficiency",
+      "Water Conservation",
+      "Renewable Energy Integration",
+      "Operational Cost",
+      "Scalability and Flexibility"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"criteria\":[\"energy efficiency\",\"water conservation\",\"renewable energy integration\",\"operational resilience\",\"cost-effectiveness\"]}",
+    "criteria": [
+      "energy efficiency",
+      "water conservation",
+      "renewable energy integration",
+      "operational resilience",
+      "cost-effectiveness"
+    ]
+  }
+]

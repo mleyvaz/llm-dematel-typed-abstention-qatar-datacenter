@@ -1,0 +1,110 @@
+[
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 2,
+    "raw_response": "{\"criteria\":[\"Renewable Energy Sourcing\",\"Energy Efficiency Technologies\",\"Cooling System Design\",\"Regulatory Compliance\",\"Site Location\"]}",
+    "criteria": [
+      "Renewable Energy Sourcing",
+      "Energy Efficiency Technologies",
+      "Cooling System Design",
+      "Regulatory Compliance",
+      "Site Location"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 2,
+    "raw_response": "{\"criteria\": [\"grid connection availability\", \"renewable energy sourcing\", \"free cooling utilization\", \"energy efficiency optimization\", \"regulatory compliance adherence\"]}",
+    "criteria": [
+      "grid connection availability",
+      "renewable energy sourcing",
+      "free cooling utilization",
+      "energy efficiency optimization",
+      "regulatory compliance adherence"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable energy compliance\", \"Grid capacity availability\", \"Energy efficiency ratio\", \"Capital investment cost\", \"Carbon emissions reduction\"]}\n```",
+    "criteria": [
+      "Renewable energy compliance",
+      "Grid capacity availability",
+      "Energy efficiency ratio",
+      "Capital investment cost",
+      "Carbon emissions reduction"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 0,
+    "raw_response": "```json\n{\"criteria\": [\"renewable energy sourcing\", \"grid connection feasibility\", \"cooling efficiency optimization\", \"operational cost reduction\", \"carbon footprint minimization\"]}\n```",
+    "criteria": [
+      "renewable energy sourcing",
+      "grid connection feasibility",
+      "cooling efficiency optimization",
+      "operational cost reduction",
+      "carbon footprint minimization"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 2,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable energy sourcing\", \"Grid connection availability\", \"Cooling infrastructure efficiency\", \"Operational cost management\", \"Regulatory compliance requirements\"]}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Grid connection availability",
+      "Cooling infrastructure efficiency",
+      "Operational cost management",
+      "Regulatory compliance requirements"
+    ]
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": 1,
+    "raw_response": "```json\n{\n  \"criteria\": [\n    \"Renewable energy sourcing\",\n    \"Grid connection feasibility\",\n    \"Cooling efficiency costs\",\n    \"Operational carbon footprint\",\n    \"Regulatory compliance timeline\"\n  ]\n}\n```",
+    "criteria": [
+      "Renewable energy sourcing",
+      "Grid connection feasibility",
+      "Cooling efficiency costs",
+      "Operational carbon footprint",
+      "Regulatory compliance timeline"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 0,
+    "raw_response": "{\"criteria\":[\"renewable energy sourcing\",\"operational efficiency\",\"energy efficiency\",\"cooling technology\",\"regulatory compliance\"]}",
+    "criteria": [
+      "renewable energy sourcing",
+      "operational efficiency",
+      "energy efficiency",
+      "cooling technology",
+      "regulatory compliance"
+    ]
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "variant": 0,
+    "raw_response": "{\"criteria\": [\"grid capacity compliance\", \"renewable energy sourcing\", \"operational energy efficiency\", \"free air cooling\", \"sustainability reporting metrics\"]}",
+    "criteria": [
+      "grid capacity compliance",
+      "renewable energy sourcing",
+      "operational energy efficiency",
+      "free air cooling",
+      "sustainability reporting metrics"
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "variant": 1,
+    "raw_response": "```json\n{\"criteria\": [\"Renewable Energy Sourcing\", \"Energy Efficiency\", \"Cooling Methodology\", \"Operational Cost\", \"Regulatory Compliance\"]}\n```",
+    "criteria": [
+      "Renewable Energy Sourcing",
+      "Energy Efficiency",
+      "Cooling Methodology",
+      "Operational Cost",
+      "Regulatory Compliance"
+    ]
+  }
+]
